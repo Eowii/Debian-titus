@@ -5,7 +5,7 @@
 
 #Start polybar first
 bash ~/.config/polybar/launch.sh &
-feh --bg-fill ~/Pictures/background.jpg &
+feh --bg-fill ~/Pictures/wallpaper.jpg &
 
 # Variable Defines
 color0=#3B4252
@@ -68,7 +68,6 @@ bspc rule -a Discord desktop='^6'
 bspc rule -a synergy desktop='^9'
 
 #Auto-Start
-feh --bg-fill /home/$username/.config/wallpaper.jpg
 bspc desktop -f ^9
 sleep 0.50
 urxvtc &

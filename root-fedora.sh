@@ -36,9 +36,9 @@ mkdir -p /home/$username/.config
 cp .Xresources /home/$username
 cp .Xnord /home/$username
 cp -R dotfiles/* /home/$username/.config/
-
+mkdir /home/$username/Pictures/
 cd /home/$username/Pictures/
-wget https://github.com/Eowii/Windows/blob/main/wallpaper.jpg
+wget https://github.com/Eowii/Windows/raw/main/wallpaper.jpg
 
 
 
