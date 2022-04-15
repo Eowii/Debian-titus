@@ -12,10 +12,10 @@ dnf upgrade --refresh -y
 
 dnf install rofi unzip picom bspwm polybar sddm rofi kitty thunar flameshot neofetch sxhkd git lxpolkit lxappearance -y
 dnf install @base-x -y
-dnf install papirus-icon-theme google-noto-emoji-color-fonts fira-code-fonts fontawesome-fonts qt5-qtsvg qt5-qtquickcontrols -y
+dnf install papirus-icon-theme google-noto-emoji-color-fonts fira-code-fonts fontawesome5-fonts-all qt5-qtsvg qt5-qtquickcontrols -y
 
 # mscorefonts-ttf
-sudo dnf install curl cabextract xorg-x11-font-utils fontconfig
+sudo dnf install curl cabextract xorg-x11-font-utils fontconfig -y
 sudo rpm -i https://downloads.sourceforge.net/project/mscorefonts2/rpms/msttcore-fonts-installer-2.6-1.noarch.rpm
 
 # Download Nordic Theme
@@ -35,3 +35,6 @@ cp .Xresources /home/$username
 cp .Xnord /home/$username
 cp -R dotfiles/* /home/$username/.config/
 chown -R $username:$username /home/$username
+
+# Boots into graphical UI
+sudo systemctl set-default graphical.target
