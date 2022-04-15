@@ -68,19 +68,20 @@ bspc rule -a Discord desktop='^6'
 bspc rule -a synergy desktop='^9'
 
 #Auto-Start
+feh --bg-fill /home/$username/.config/wallpaper.jpg
 bspc desktop -f ^9
 sleep 0.50
 urxvtc &
 lxpolkit &
 picom --config "$HOME/.config/bspwm/picom.conf" &
 /usr/bin/synergys -f -d ERROR -n studio-pc -c /etc/synergy.conf -a 192.168.69.10:24800 --log ~/.local/log/synergy.log &
-flameshot &
-synergypid=0
-while [ $synergypid -eq 0 ] 
-do
-   sleep 1
-   synergypid=$(pidof synergy)
-done
+#flameshot &
+#synergypid=0
+#while [ $synergypid -eq 0 ] 
+#do
+#   sleep 1
+#   synergypid=$(pidof synergy)
+#done
 sleep 0.5
 pingresult=$(ping -c 1 1.1.1.1 > /dev/null ; echo $?)
 while [ $pingresult -ne 0 ]; do
@@ -99,4 +100,4 @@ bspc desktop -f ^1
 bash ~/Git
 
 # Extra Specific Files for Titus (DELETE ME)
-sudo /home/titus/GitHub/Debian-titus/dotfiles/bspwm/mount-drives.sh
+#sudo /home/titus/GitHub/Debian-titus/dotfiles/bspwm/mount-drives.sh
