@@ -10,7 +10,7 @@ dnf upgrade --refresh -y
 
 # Add base packages
 
-dnf install rofi unzip picom bspwm polybar sddm rofi kitty thunar flameshot neofetch sxhkd git lxpolkit lxappearance -y
+dnf install rofi unzip picom bspwm polybar sddm rofi kitty thunar flameshot neofetch sxhkd git lxpolkit lxappearance feh -y
 dnf install @base-x -y
 dnf install papirus-icon-theme google-noto-emoji-color-fonts fira-code-fonts fontawesome5-fonts-all qt5-qtsvg qt5-qtquickcontrols -y
 
@@ -34,6 +34,12 @@ mkdir -p /home/$username/.config
 cp .Xresources /home/$username
 cp .Xnord /home/$username
 cp -R dotfiles/* /home/$username/.config/
+
+cd /home/$username/.config
+wget https://github.com/Eowii/Windows/blob/main/wallpaper.jpg
+
+
+
 chown -R $username:$username /home/$username
 
 # Boots into graphical UI
