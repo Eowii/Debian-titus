@@ -6,7 +6,7 @@ username=$(id -u -n 1000)
 builddir=$(pwd)
 
 # Update packages list
-dnf update
+dnf update -y
 
 # Add base packages
 
