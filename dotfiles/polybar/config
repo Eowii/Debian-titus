@@ -78,7 +78,7 @@ font-5 = Noto Color Emoji:scale=20;4
 
 modules-left = launcher sep left bspwm right sep left bsplayout bspmode right
 modules-center = xwindow
-modules-right = left pulseaudio right sep left battery backlight bluetooth vpn dunst redshift right sep left eth wlan right sep left time right sep powermenu
+modules-right = left pulseaudio right sep left dunst right sep left eth right sep left time right sep powermenu
 
 override-redirect = true
 wm-restack = bspwm
@@ -316,8 +316,8 @@ format-overline = ${colors.background}
 
 format-underline = ${colors.background}
 
-hook-0 = echo "%{A1:sudo pkill openconnect && polybar-msg hook vpn 2:}%{F#a3be8c} %{F-}%{A}" &
-hook-1 = echo "%{A1:pass sshthanos | sudo openconnect vpn.som.umaryland.edu -b -q --user=cullen.ross --authgroup SOM-Multifactor --passwd-on-stdin --servercert pin-sha256\:zWuWUmGaQEWraG+Xvv6uF58rrupSRmqCzeNioSDEaaI= && polybar-msg hook vpn 1:}%{F#3b4252} %{F-}%{A}" &
+#hook-0 = echo "%{A1:sudo pkill openconnect && polybar-msg hook vpn 2:}%{F#a3be8c} %{F-}%{A}" &
+#hook-1 = echo "%{A1:pass sshthanos | sudo openconnect vpn.som.umaryland.edu -b -q --user=cullen.ross --authgroup SOM-Multifactor --passwd-on-stdin --servercert pin-sha256\:zWuWUmGaQEWraG+Xvv6uF58rrupSRmqCzeNioSDEaaI= && polybar-msg hook vpn 1:}%{F#3b4252} %{F-}%{A}" &
 
 [module/dunst]
 type = custom/ipc

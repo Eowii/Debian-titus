@@ -25,7 +25,7 @@ done &
 xsetroot -cursor_name left_ptr
 
 #Set Keyboard Layout
-setxkbmap -layout us
+setxkbmap -layout se
 
 #Monitor Config
 bspc monitor -d 1 2 3 4 5 6 7 8 9 10
@@ -70,10 +70,9 @@ bspc rule -a synergy desktop='^9'
 #Auto-Start
 bspc desktop -f ^9
 sleep 0.50
-urxvtc &
 lxpolkit &
 picom --config "$HOME/.config/bspwm/picom.conf" &
-/usr/bin/synergys -f -d ERROR -n studio-pc -c /etc/synergy.conf -a 192.168.69.10:24800 --log ~/.local/log/synergy.log &
+#/usr/bin/synergys -f -d ERROR -n studio-pc -c /etc/synergy.conf -a 192.168.69.10:24800 --log ~/.local/log/synergy.log &
 #flameshot &
 #synergypid=0
 #while [ $synergypid -eq 0 ] 
