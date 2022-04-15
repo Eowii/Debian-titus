@@ -37,7 +37,7 @@ cp .Xresources /home/$username
 cp .Xnord /home/$username
 cp -R dotfiles/* /home/$username/.config/
 
-cd /home/$username/.config
+cd /home/$username/Pictures/
 wget https://github.com/Eowii/Windows/blob/main/wallpaper.jpg
 
 
