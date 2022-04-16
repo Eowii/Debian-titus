@@ -52,4 +52,3 @@ chown -R $username:$username /home/$username
 
 # Boots into graphical UI
 sudo systemctl set-default graphical.target
-#
