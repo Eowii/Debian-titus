@@ -39,7 +39,10 @@ cp -R dotfiles/* /home/$username/.config/
 mkdir /home/$username/Pictures/
 cd /home/$username/Pictures/
 wget https://github.com/Eowii/Windows/raw/main/wallpaper.jpg
-
+cd /home/$username/
+git clone https://github.com/Eayu/sddm-theme-clairvoyance
+sudo mv sddm-theme-clairvoyance /usr/share/sddm/themes/clairvoyance
+sudo sed -i 's/#Current=01-breeze-fedora/Current=clairvoyance' /etc/sddm.conf
 
 
 chown -R $username:$username /home/$username
