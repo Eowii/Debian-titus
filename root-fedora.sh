@@ -30,6 +30,10 @@ unzip Meslo.zip -d /usr/share/fonts
 fc-cache -vf
 
 cd $builddir
+mkdir -p  /home/$username/.local/bin/
+cp -R dotfiles/.local /home/$username/
+chmod +x /home/$username/.local/bin/*
+
 mkdir -p /home/$username/.config
 cp .Xresources /home/$username
 cp .Xnord /home/$username
@@ -43,13 +47,8 @@ sudo mv sddm-theme-clairvoyance /usr/share/sddm/themes/clairvoyance
 sudo cp /etc/sddm.conf /etc/sddm2.conf
 sudo sed -i 's/#Current=01-breeze-fedora/Current=clairvoyance/' /etc/sddm.conf
 
-mkdir -p  /home/$username/.local/bin/
-cp -R dotfiles/.local /home/$username/
-chmod +x /home/$username/.local/bin/*
-
 
 chown -R $username:$username /home/$username
-c
 
 # Boots into graphical UI
 sudo systemctl set-default graphical.target
