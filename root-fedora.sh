@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# Change Debian to SID Branch
-
 username=$(id -u -n 1000)
 builddir=$(pwd)
 
