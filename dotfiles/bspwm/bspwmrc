@@ -85,7 +85,7 @@ pingresult=$(ping -c 1 1.1.1.1 > /dev/null ; echo $?)
 while [ $pingresult -ne 0 ]; do
   pingresult=$(ping -c 1 1.1.1.1 > /dev/null ; echo $?)
 done
-bspc desktop -f ^6
+#bspc desktop -f ^6
 /bin/Discord &
 discordpid=0
 #while [ $discordpid -eq 0 ] 
@@ -94,7 +94,7 @@ discordpid=0
 #   discordpid=$(pidof Discord)
 #done
 sleep 2.5
-bspc desktop -f ^1
+#bspc desktop -f ^1
 #bash ~/Git
 
 # Extra Specific Files for Titus (DELETE ME)
