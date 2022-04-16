@@ -68,7 +68,7 @@ bspc rule -a Discord desktop='^6'
 bspc rule -a synergy desktop='^9'
 
 #Auto-Start
-bspc desktop -f ^9
+#bspc desktop -f ^9
 sleep 0.50
 lxpolkit &
 picom --config "$HOME/.config/bspwm/picom.conf" &
@@ -88,14 +88,14 @@ done
 bspc desktop -f ^6
 /bin/Discord &
 discordpid=0
-while [ $discordpid -eq 0 ] 
-do
-   sleep 1
-   discordpid=$(pidof Discord)
-done
+#while [ $discordpid -eq 0 ] 
+#do
+#   sleep 1
+#   discordpid=$(pidof Discord)
+#done
 sleep 2.5
 bspc desktop -f ^1
-bash ~/Git
+#bash ~/Git
 
 # Extra Specific Files for Titus (DELETE ME)
 #sudo /home/titus/GitHub/Debian-titus/dotfiles/bspwm/mount-drives.sh
