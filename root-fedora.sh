@@ -41,7 +41,7 @@ cd /home/$username/
 git clone https://github.com/Eayu/sddm-theme-clairvoyance
 sudo mv sddm-theme-clairvoyance /usr/share/sddm/themes/clairvoyance
 sudo cp /etc/sddm.conf /etc/sddm2.conf
-sudo sed -i 's/#Current=01-breeze-fedora/Current=clairvoyance' /etc/sddm.conf
+sudo sed -i 's/#Current=01-breeze-fedora/Current=clairvoyance/' /etc/sddm.conf
 
 
 chown -R $username:$username /home/$username
