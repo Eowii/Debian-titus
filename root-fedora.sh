@@ -44,8 +44,8 @@ sudo cp /etc/sddm.conf /etc/sddm2.conf
 sudo sed -i 's/#Current=01-breeze-fedora/Current=clairvoyance/' /etc/sddm.conf
 
 mkdir -p  /home/$username/.local/bin
-cp dotfiles/.local/bin/* home/$username/.local/bin
-chmod +x home/$username/.local/bin/*
+cp dotfiles/.local/bin/* /home/$username/.local/bin
+chmod +x /home/$username/.local/bin/*
 
 
 chown -R $username:$username /home/$username
