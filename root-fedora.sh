@@ -15,8 +15,8 @@ dnf install @base-x -y
 dnf install papirus-icon-theme google-noto-emoji-color-fonts fira-code-fonts fontawesome5-fonts-all qt5-qtsvg qt5-qtquickcontrols -y
 
 # mscorefonts-ttf
-sudo dnf install curl cabextract xorg-x11-font-utils fontconfig -y
-sudo rpm -i https://downloads.sourceforge.net/project/mscorefonts2/rpms/msttcore-fonts-installer-2.6-1.noarch.rpm
+#sudo dnf install curl cabextract xorg-x11-font-utils fontconfig -y
+#sudo rpm -i https://downloads.sourceforge.net/project/mscorefonts2/rpms/msttcore-fonts-installer-2.6-1.noarch.rpm
 
 # Download Nordic Theme
 cd /usr/share/themes/
@@ -42,6 +42,9 @@ git clone https://github.com/Eayu/sddm-theme-clairvoyance
 sudo mv sddm-theme-clairvoyance /usr/share/sddm/themes/clairvoyance
 sudo cp /etc/sddm.conf /etc/sddm2.conf
 sudo sed -i 's/#Current=01-breeze-fedora/Current=clairvoyance/' /etc/sddm.conf
+
+mkdir  /home/$username/.local/bin
+cp .local/bin/* home/$username/.local/bin
 
 
 chown -R $username:$username /home/$username

@@ -18,3 +18,6 @@
     foreground = "#ECEFF4"
     frame_color = "#E5E9F0"
     separator_color = "#E5E9F0"
+
+[log_notifs]
+    script = ~/.local/bin/dunst_logger.sh
