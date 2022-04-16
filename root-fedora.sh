@@ -10,7 +10,7 @@ dnf upgrade --refresh -y
 
 # Add base packages
 
-dnf install rofi unzip picom bspwm polybar sddm rofi kitty thunar flameshot neofetch sxhkd git lxpolkit lxappearance feh xsetroot dunst -y
+dnf install rofi unzip picom bspwm polybar sddm rofi kitty thunar flameshot neofetch sxhkd git lxpolkit lxappearance feh xsetroot dunst nano -y
 dnf install @base-x -y
 dnf install papirus-icon-theme google-noto-emoji-color-fonts fira-code-fonts fontawesome5-fonts-all qt5-qtsvg qt5-qtquickcontrols arandr pavucontrol pulseaudio -y
 
@@ -44,7 +44,6 @@ wget https://github.com/Eowii/Windows/raw/main/wallpaper.jpg
 cd /home/$username/
 git clone https://github.com/Eayu/sddm-theme-clairvoyance
 sudo mv sddm-theme-clairvoyance /usr/share/sddm/themes/clairvoyance
-sudo cp /etc/sddm.conf /etc/sddm2.conf
 sudo sed -i 's/#Current=01-breeze-fedora/Current=clairvoyance/' /etc/sddm.conf
 
 
