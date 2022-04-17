@@ -13,6 +13,10 @@ dnf upgrade --refresh -y
 dnf install rofi unzip picom bspwm polybar sddm rofi kitty thunar flameshot neofetch sxhkd git lxpolkit lxappearance feh xsetroot dunst nano -y
 dnf install @base-x @firefox -y
 dnf install papirus-icon-theme google-noto-emoji-color-fonts fira-code-fonts fontawesome5-fonts-all qt5-qtsvg qt5-qtquickcontrols arandr pavucontrol -y
+dnf install qtgraphicaleffects qt5‑qtquickcontrols2 qt5‑qtsvg
+
+wget https://github.com/TheAssassin/AppImageLauncher/releases/download/v2.2.0/appimagelauncher-2.2.0-travis995.0f91801.x86_64.rpm
+dnf install appimagelauncher-2.2.0-travis995.0f91801.x86_64.rpm -y
 
 # mscorefonts-ttf
 #sudo dnf install curl cabextract xorg-x11-font-utils fontconfig -y
@@ -41,10 +45,11 @@ cp -R dotfiles/* /home/$username/.config/
 mkdir /home/$username/Pictures/
 cd /home/$username/Pictures/
 wget https://github.com/Eowii/Windows/raw/main/wallpaper.jpg
-cd /home/$username/
-git clone https://github.com/Eayu/sddm-theme-clairvoyance
-sudo mv sddm-theme-clairvoyance /usr/share/sddm/themes/clairvoyance
-sudo sed -i 's/#Current=01-breeze-fedora/Current=clairvoyance/' /etc/sddm.conf
+
+sudo mkdir ‑p /usr/share/sddm/themes
+cd /usr/share/sddm/themes
+git clone https://framagit.org/MarianArlt/sddm-sugar-candy
+sudo sed -i 's/#Current=01-breeze-fedora/Current=sddm-sugar-candy/' /etc/sddm.conf
 
 
 chown -R $username:$username /home/$username
