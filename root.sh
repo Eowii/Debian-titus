@@ -11,7 +11,7 @@ dnf upgrade --refresh -y
 # Add base packages
 
 dnf install rofi unzip picom bspwm polybar sddm rofi kitty thunar flameshot neofetch sxhkd git lxpolkit lxappearance feh xsetroot dunst nano -y
-dnf install @base-x -y
+dnf install @base-x @firefox -y
 dnf install papirus-icon-theme google-noto-emoji-color-fonts fira-code-fonts fontawesome5-fonts-all qt5-qtsvg qt5-qtquickcontrols arandr pavucontrol -y
 
 # mscorefonts-ttf
