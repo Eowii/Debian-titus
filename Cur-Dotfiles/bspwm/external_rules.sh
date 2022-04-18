@@ -92,6 +92,10 @@ if [[ "$w_name" == "VLC media player" ]]; then
  	echo "desktop=^8"
 fi
 
+if [[ "$w_name" == "Obsidian Vault"* ]]; then   
+ 	echo "desktop=^7"
+fi
+
 #if [[ "$w_instance" == "Steam" ]]; then   
 # 	echo "state=floating"
 #fi
