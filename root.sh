@@ -80,3 +80,5 @@ betterlockscreen -u ~/Wallpapers/
 
 # Boots into graphical UI
 sudo systemctl set-default graphical.target
+
+echo "Run user.sh as your user."
