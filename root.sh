@@ -67,7 +67,7 @@ EndSection" > /etc/X11/xorg.conf.d/50-mouse-acceleration.conf
 cd /home/$username/
 git clone https://github.com/Raymo111/i3lock-color.git
 cd i3lock-color
-su - $username -c "./install-i3lock-color.sh"
+./install-i3lock-color.sh
 
 cd /home/$username/
 git clone https://github.com/betterlockscreen/betterlockscreen
