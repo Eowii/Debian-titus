@@ -1,3 +1,0 @@
-[2022-04-19 01:18:46.364] [sharedprocess] [info] Starting worker process with pid 85237 (type: fileWatcher, window: 2).
-[2022-04-19 01:18:46.442] [sharedprocess] [info] Starting worker process with pid 85250 (type: fileWatcher, window: 1).
-[2022-04-19 01:21:10.730] [sharedprocess] [info] Worker process with pid 85250 terminated normally (type: fileWatcher, window: 1).

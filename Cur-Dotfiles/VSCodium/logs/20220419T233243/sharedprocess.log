@@ -1,3 +1,0 @@
-[2022-04-19 23:32:45.246] [sharedprocess] [info] Starting worker process with pid 5914 (type: fileWatcher, window: 2).
-[2022-04-19 23:32:45.299] [sharedprocess] [info] Starting worker process with pid 5927 (type: fileWatcher, window: 1).
-[2022-04-19 23:36:30.615] [sharedprocess] [info] Worker process with pid 5914 terminated normally (type: fileWatcher, window: 2).
