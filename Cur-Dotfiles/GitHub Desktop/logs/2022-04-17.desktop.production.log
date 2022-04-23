@@ -1,0 +1,243 @@
+2022-04-17T12:42:04.389Z - info: [ui] [AppStore] loading 0 repositories from store
+2022-04-17T12:42:04.397Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2022-04-17T12:42:04.398Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2022-04-17T12:42:04.413Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2022-04-17T12:42:04.418Z - info: [ui] launching: 2.9.6-linux1 (Linux 5.17.2-300.fc36.x86_64)
+2022-04-17T12:42:04.419Z - info: [ui] execPath: '/usr/lib/github-desktop/github-desktop'
+2022-04-17T12:42:04.427Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2022-04-17T12:42:04.462Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2022-04-17T12:42:04.807Z - info: [ui] Opt in reported.
+2022-04-17T12:42:06.584Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2022-04-17T12:42:06.678Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2022-04-17T12:43:32.343Z - info: [ui] [AppStore] loading 0 repositories from store
+2022-04-17T12:43:32.351Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2022-04-17T12:43:32.352Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2022-04-17T12:43:32.381Z - info: [ui] launching: 2.9.6-linux1 (Linux 5.17.2-300.fc36.x86_64)
+2022-04-17T12:43:32.381Z - info: [ui] execPath: '/usr/lib/github-desktop/github-desktop'
+2022-04-17T12:43:32.388Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2022-04-17T12:43:32.397Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2022-04-17T12:43:32.400Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2022-04-17T12:43:33.483Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2022-04-17T12:43:33.596Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2022-04-17T12:43:33.796Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2022-04-17T12:43:35.051Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2022-04-17T12:43:40.992Z - info: [ui] [AppStore] loading 0 repositories from store
+2022-04-17T12:43:41.000Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2022-04-17T12:43:41.008Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2022-04-17T12:43:41.030Z - info: [ui] launching: 2.9.6-linux1 (Linux 5.17.2-300.fc36.x86_64)
+2022-04-17T12:43:41.030Z - info: [ui] execPath: '/usr/lib/github-desktop/github-desktop'
+2022-04-17T12:43:41.038Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2022-04-17T12:43:41.050Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2022-04-17T12:43:41.053Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2022-04-17T12:43:43.231Z - info: [ui] [Welcome] advancing to step: SignInToDotComWithBrowser
+2022-04-17T12:43:43.232Z - info: [ui] [SignInStore] initializing OAuth flow
+2022-04-17T12:43:43.233Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=df0d90d1-407f-4ad4-9140-3b8f71ea97a7
+2022-04-17T12:43:43.234Z - info: [ui] [Welcome] current sign in state not found. ignoring...
+2022-04-17T12:44:09.634Z - info: [main] Received possible protocol arguments: 2
+2022-04-17T12:44:09.634Z - info: [main] Processing protocol url
+2022-04-17T12:44:09.647Z - warn: [ui] Unknown URL action: unknown - payload: {"name":"unknown","url":"--no-sandbox"}
+2022-04-17T12:44:09.663Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2022-04-17T12:44:09.915Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2022-04-17T12:44:10.546Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2022-04-17T12:44:20.330Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2022-04-17T12:44:20.563Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2022-04-17T12:44:52.766Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2022-04-17T12:44:52.930Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2022-04-17T12:44:54.095Z - info: [ui] [Welcome] advancing to step: Start
+2022-04-17T12:44:56.591Z - info: [ui] [Welcome] advancing to step: SignInToDotComWithBrowser
+2022-04-17T12:44:56.592Z - info: [ui] [SignInStore] initializing OAuth flow
+2022-04-17T12:44:56.594Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=15fcab4d-cdf4-4c47-b772-de17d83930fb
+2022-04-17T12:44:56.595Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2022-04-17T12:44:57.380Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2022-04-17T12:45:00.946Z - info: [main] Received possible protocol arguments: 2
+2022-04-17T12:45:00.946Z - info: [main] Processing protocol url
+2022-04-17T12:45:00.962Z - warn: [ui] Unknown URL action: unknown - payload: {"name":"unknown","url":"--no-sandbox"}
+2022-04-17T12:45:00.963Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2022-04-17T12:45:00.964Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2022-04-17T12:45:01.514Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2022-04-17T12:45:04.965Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2022-04-17T12:45:06.721Z - info: [ui] [Welcome] advancing to step: Start
+2022-04-17T12:45:07.246Z - info: [ui] [Welcome] advancing to step: SignInToDotComWithBrowser
+2022-04-17T12:45:07.247Z - info: [ui] [SignInStore] initializing OAuth flow
+2022-04-17T12:45:07.249Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=10d48c8f-82f6-461d-bc65-16a3127b1c18
+2022-04-17T12:45:07.249Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2022-04-17T12:45:07.382Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2022-04-17T12:45:07.630Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2022-04-17T12:45:08.013Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2022-04-17T12:45:22.780Z - info: [main] Received possible protocol arguments: 2
+2022-04-17T12:45:22.780Z - info: [main] Processing protocol url
+2022-04-17T12:45:22.797Z - warn: [ui] Unknown URL action: unknown - payload: {"name":"unknown","url":"--no-sandbox"}
+2022-04-17T12:45:22.799Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2022-04-17T12:45:22.847Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2022-04-17T12:45:25.181Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2022-04-17T12:45:32.747Z - info: [ui] [AppStore] loading 0 repositories from store
+2022-04-17T12:45:32.756Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2022-04-17T12:45:32.757Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2022-04-17T12:45:32.775Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2022-04-17T12:45:32.783Z - info: [ui] launching: 2.9.6-linux1 (Linux 5.17.2-300.fc36.x86_64)
+2022-04-17T12:45:32.783Z - info: [ui] execPath: '/usr/lib/github-desktop/github-desktop'
+2022-04-17T12:45:32.796Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2022-04-17T12:45:32.807Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2022-04-17T12:45:35.658Z - info: [ui] [Welcome] advancing to step: SignInToDotComWithBrowser
+2022-04-17T12:45:35.659Z - info: [ui] [SignInStore] initializing OAuth flow
+2022-04-17T12:45:35.660Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=e531809c-a679-4c48-8819-47f3631f7d58
+2022-04-17T12:45:35.660Z - info: [ui] [Welcome] current sign in state not found. ignoring...
+2022-04-17T12:45:36.515Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2022-04-17T12:45:37.030Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2022-04-17T12:45:37.547Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2022-04-17T12:45:44.297Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2022-04-17T12:45:45.762Z - info: [ui] [Welcome] advancing to step: Start
+2022-04-17T12:45:50.288Z - info: [ui] [Welcome] advancing to step: SignInToDotComWithBrowser
+2022-04-17T12:45:50.296Z - info: [ui] [SignInStore] initializing OAuth flow
+2022-04-17T12:45:50.297Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=b65712d6-0c47-49a7-af69-f9d8e142fdc2
+2022-04-17T12:45:50.297Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2022-04-17T12:45:50.997Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2022-04-17T12:45:51.847Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2022-04-17T12:45:52.031Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2022-04-17T12:45:54.113Z - info: [main] Received possible protocol arguments: 2
+2022-04-17T12:45:54.113Z - info: [main] Processing protocol url
+2022-04-17T12:45:54.129Z - warn: [ui] Unknown URL action: unknown - payload: {"name":"unknown","url":"--no-sandbox"}
+2022-04-17T12:45:54.130Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2022-04-17T12:45:54.131Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2022-04-17T12:45:55.415Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2022-04-17T12:46:33.552Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2022-04-17T12:46:37.188Z - info: [ui] [Welcome] advancing to step: ConfigureGit
+2022-04-17T12:46:57.185Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2022-04-17T12:46:57.378Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2022-04-17T12:47:08.178Z - info: [ui] [SignInStore] initializing OAuth flow
+2022-04-17T12:47:08.181Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=a2489d65-8212-48cb-a9c1-b325798f825d
+2022-04-17T12:47:17.981Z - info: [main] Received possible protocol arguments: 2
+2022-04-17T12:47:17.981Z - info: [main] Processing protocol url
+2022-04-17T12:47:17.997Z - warn: [ui] Unknown URL action: unknown - payload: {"name":"unknown","url":"--no-sandbox"}
+2022-04-17T12:47:37.239Z - info: [ui] [SignInStore] initializing OAuth flow
+2022-04-17T12:47:37.241Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=7183bff0-6949-4163-b7ce-e1494b417070
+2022-04-17T12:47:42.315Z - info: [main] Received possible protocol arguments: 2
+2022-04-17T12:47:42.315Z - info: [main] Processing protocol url
+2022-04-17T12:47:42.331Z - warn: [ui] Unknown URL action: unknown - payload: {"name":"unknown","url":"--no-sandbox"}
+2022-04-17T12:50:15.223Z - info: [ui] [AppStore] loading 0 repositories from store
+2022-04-17T12:50:15.254Z - info: [ui] launching: 2.9.6-linux1 (Linux 5.17.2-300.fc36.x86_64)
+2022-04-17T12:50:15.254Z - info: [ui] execPath: '/usr/lib/github-desktop/github-desktop'
+2022-04-17T12:50:15.706Z - info: [ui] Stats reported.
+2022-04-17T12:50:22.783Z - info: [ui] [SignInStore] initializing OAuth flow
+2022-04-17T12:50:22.784Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=c8cd8f3b-2cba-4a47-9cf4-990e486e4cdb
+2022-04-17T12:50:27.843Z - info: [main] Received possible protocol arguments: 2
+2022-04-17T12:50:27.843Z - info: [main] Processing protocol url
+2022-04-17T12:50:27.860Z - warn: [ui] Unknown URL action: unknown - payload: {"name":"unknown","url":"--no-sandbox"}
+2022-04-17T12:50:36.260Z - info: [main] Received possible protocol arguments: 2
+2022-04-17T12:50:36.260Z - info: [main] Processing protocol url
+2022-04-17T12:50:36.276Z - warn: [ui] Unknown URL action: unknown - payload: {"name":"unknown","url":"--no-sandbox"}
+2022-04-17T12:51:19.177Z - info: [main] Received possible protocol arguments: 2
+2022-04-17T12:51:19.177Z - info: [main] Processing protocol url
+2022-04-17T12:51:19.195Z - warn: [ui] Unknown URL action: unknown - payload: {"name":"unknown","url":"--help"}
+2022-04-17T12:53:06.596Z - info: [main] Received possible protocol arguments: 2
+2022-04-17T12:53:06.596Z - info: [main] Processing protocol url
+2022-04-17T12:53:06.597Z - warn: [ui] Unknown URL action: unknown - payload: {"name":"unknown","url":"--no-sandbox"}
+2022-04-17T12:56:02.328Z - info: [ui] Opt in reported.
+2022-04-17T12:56:03.883Z - error: [ui] PullRequestCoordinator: Error loading repositories
+2022-04-17T12:56:15.780Z - info: [main] Received possible protocol arguments: 4
+2022-04-17T12:56:43.207Z - info: [ui] Opt in reported.
+2022-04-17T12:56:44.809Z - error: [ui] PullRequestCoordinator: Error loading repositories
+2022-04-17T12:56:56.356Z - info: [ui] createOwnerKey: Updating 0 owners with keys
+2022-04-17T12:56:56.358Z - info: [ui] [AppStore] loading 0 repositories from store
+2022-04-17T12:56:56.389Z - info: [ui] launching: 2.9.14-linux2 (Linux 5.17.2-300.fc36.x86_64)
+2022-04-17T12:56:56.389Z - info: [ui] execPath: '/tmp/.mount_GitHub6Jaeih/github-desktop'
+2022-04-17T12:57:02.412Z - info: [ui] [SignInStore] initializing OAuth flow
+2022-04-17T12:57:02.415Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=f66ae685-cd01-4d6b-bb29-0750072a1109
+2022-04-17T12:57:03.630Z - info: [main] Received possible protocol arguments: 5
+2022-04-17T12:57:03.630Z - info: [main] Processing protocol url
+2022-04-17T12:57:03.648Z - info: [ui] [Dispatcher] requesting authenticated user
+2022-04-17T12:57:04.453Z - info: [ui] [SignInStore] account resolved
+2022-04-17T12:57:04.454Z - info: [ui] [AppStore] adding account Eowii (Eowii) to store
+2022-04-17T12:57:04.461Z - error: [ui] Error adding account 'Eowii'
+Error: Object does not exist at path “/org/freedesktop/secrets/collection/login”
+2022-04-17T13:00:01.915Z - info: [ui] [AppStore] loading 0 repositories from store
+2022-04-17T13:00:01.939Z - info: [ui] launching: 2.9.14-linux2 (Linux 5.17.2-300.fc36.x86_64)
+2022-04-17T13:00:01.941Z - info: [ui] execPath: '/usr/lib/github-desktop/github-desktop'
+2022-04-17T13:00:11.935Z - info: [ui] [SignInStore] initializing OAuth flow
+2022-04-17T13:00:11.937Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=9b04197a-3f72-4e5c-84e9-e9cb51a0a03e
+2022-04-17T13:00:12.514Z - info: [main] Received possible protocol arguments: 4
+2022-04-17T13:00:12.514Z - info: [main] Processing protocol url
+2022-04-17T13:00:12.515Z - info: [ui] [Dispatcher] requesting authenticated user
+2022-04-17T13:00:13.374Z - info: [ui] [SignInStore] account resolved
+2022-04-17T13:00:13.374Z - info: [ui] [AppStore] adding account Eowii (Eowii) to store
+2022-04-17T13:00:22.106Z - info: [ui] Subscribed 'Eowii' to Alive channel
+2022-04-17T13:00:52.860Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/Eowii/Fedora.git - Eowii (has token)
+2022-04-17T13:00:54.663Z - info: [ui] Executing clone: git -c credential.helper= -c protocol.version=2 -c init.defaultBranch=main clone --recursive --progress -- https://github.com/Eowii/Fedora.git /home/andreas/GitHub/Fedora (took 1.784s)
+2022-04-17T13:00:54.672Z - info: [ui] [AppStore] adding repository at /home/andreas/GitHub/Fedora to store
+2022-04-17T13:00:54.954Z - info: [ui] [BranchPruner] No branches to prune.
+2022-04-17T13:00:58.121Z - info: [ui] [BranchPruner] Last prune took place 3 seconds ago - skipping
+2022-04-17T13:01:09.560Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/Eowii/Linux.git - Eowii (has token)
+2022-04-17T13:01:10.378Z - info: [ui] [AppStore] adding repository at /home/andreas/GitHub/Linux to store
+2022-04-17T13:01:10.464Z - info: [ui] [BranchPruner] Last prune took place 16 seconds ago - skipping
+2022-04-17T13:01:10.652Z - info: [ui] [BranchPruner] No branches to prune.
+2022-04-17T13:01:20.573Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/Eowii/user.js.git - Eowii (has token)
+2022-04-17T13:01:22.797Z - info: [ui] Executing clone: git -c credential.helper= -c protocol.version=2 -c init.defaultBranch=master clone --recursive --progress -- https://github.com/Eowii/user.js.git /home/andreas/GitHub/user.js (took 2.205s)
+2022-04-17T13:01:22.803Z - info: [ui] [AppStore] adding repository at /home/andreas/GitHub/user.js to store
+2022-04-17T13:01:22.879Z - info: [ui] [BranchPruner] Last prune took place 12 seconds ago - skipping
+2022-04-17T13:01:23.045Z - info: [ui] [BranchPruner] No branches to prune.
+2022-04-17T13:01:26.775Z - info: [ui] [BranchPruner] Last prune took place 4 seconds ago - skipping
+2022-04-17T13:02:07.221Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/Eowii/Windows.git - Eowii (has token)
+2022-04-17T13:02:08.069Z - info: [ui] [AppStore] adding repository at /home/andreas/GitHub/Windows to store
+2022-04-17T13:02:08.148Z - info: [ui] [BranchPruner] Last prune took place 1 minute ago - skipping
+2022-04-17T13:02:08.324Z - info: [ui] [BranchPruner] No branches to prune.
+2022-04-17T13:02:15.625Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/Eowii/Other.git - Eowii (has token)
+2022-04-17T13:02:16.456Z - info: [ui] [AppStore] adding repository at /home/andreas/GitHub/Other to store
+2022-04-17T13:02:16.542Z - info: [ui] [BranchPruner] Last prune took place 8 seconds ago - skipping
+2022-04-17T13:02:16.729Z - info: [ui] [BranchPruner] No branches to prune.
+2022-04-17T13:16:02.783Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 5 repositories took 1.0s of which 0.0s paused, total 1.0s
+2022-04-17T13:23:13.905Z - info: [ui] [BranchPruner] Last prune took place 22 minutes ago - skipping
+2022-04-17T13:23:20.399Z - error: [ui] `git commit -F -` exited with an unexpected code: 128.
+stderr:
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <>) not allowed
+
+2022-04-17T13:23:20.399Z - info: [ui] [Timing] Action 'create commit' for 'Eowii/user.js' took 0.034s
+2022-04-17T13:23:30.350Z - error: [ui] `git commit -F -` exited with an unexpected code: 128.
+stderr:
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <>) not allowed
+
+2022-04-17T13:23:30.351Z - info: [ui] [Timing] Action 'create commit' for 'Eowii/user.js' took 0.029s
+2022-04-17T13:23:59.783Z - info: [ui] [Timing] Action 'create commit' for 'Eowii/user.js' took 0.054s
+2022-04-17T13:24:04.171Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: user.js - Eowii (has token)
+2022-04-17T13:24:05.429Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master:master --progress (took 1.244s)
+2022-04-17T13:24:08.731Z - info: [ui] [BranchPruner] Last prune took place 23 minutes ago - skipping
+2022-04-17T13:35:56.561Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 4 repositories took 0.8s of which 0.1s paused, total 0.8s
+2022-04-17T13:57:30.540Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 4 repositories took 0.8s of which 0.0s paused, total 0.8s
+2022-04-17T23:34:53.706Z - info: [ui] [AppStore] loading 5 repositories from store
+2022-04-17T23:34:53.709Z - info: [ui] [AppStore] found account: Eowii (Eowii)
+2022-04-17T23:34:53.738Z - info: [ui] [BranchPruner] Last prune took place 11 hours ago - skipping
+2022-04-17T23:34:54.049Z - info: [ui] launching: 2.9.14-linux2 (Linux 5.17.2-300.fc36.x86_64)
+2022-04-17T23:34:54.050Z - info: [ui] execPath: '/usr/lib/github-desktop/github-desktop'
+2022-04-17T23:34:54.193Z - info: [ui] Subscribed 'Eowii' to Alive channel
+2022-04-17T23:37:11.184Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 4 repositories took 0.8s of which 0.0s paused, total 0.8s
+2022-04-17T23:37:18.763Z - info: [ui] [Timing] Action 'create commit' for 'Eowii/Fedora' took 0.084s
+2022-04-17T23:37:19.982Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Fedora - Eowii (has token)
+2022-04-17T23:37:21.715Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin main:main --progress (took 1.719s)
+2022-04-17T23:37:25.913Z - info: [ui] [BranchPruner] Last prune took place 11 hours ago - skipping
+2022-04-17T23:37:27.908Z - info: [ui] [BranchPruner] Last prune took place 11 hours ago - skipping
+2022-04-17T23:37:29.189Z - info: [ui] [BranchPruner] Last prune took place 11 hours ago - skipping
+2022-04-17T23:37:30.539Z - info: [ui] [BranchPruner] Last prune took place 11 hours ago - skipping
+2022-04-17T23:37:32.043Z - info: [ui] [BranchPruner] Last prune took place 11 hours ago - skipping

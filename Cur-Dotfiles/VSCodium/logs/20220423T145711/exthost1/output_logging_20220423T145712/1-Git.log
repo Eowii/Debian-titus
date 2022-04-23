@@ -1,0 +1,13 @@
+[2022-04-23T12:57:12.720Z] Validating found git in: git
+[2022-04-23T12:57:12.727Z] Using git 2.35.1 from git
+[2022-04-23T12:57:12.739Z] > git rev-parse --git-dir [1ms]
+[2022-04-23T12:57:12.742Z] Open repository: /home/andreas/GitHub/Fedora
+[2022-04-23T12:57:12.762Z] > git symbolic-ref --short HEAD [2ms]
+[2022-04-23T12:57:12.767Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main [3ms]
+[2022-04-23T12:57:12.771Z] > git remote --verbose [0ms]
+[2022-04-23T12:57:12.772Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+[2022-04-23T12:57:12.778Z] > git config --get commit.template [2ms]
+[2022-04-23T12:57:13.071Z] > git ls-files --stage -- /home/andreas/GitHub/Fedora/root.sh [1ms]
+[2022-04-23T12:57:13.073Z] > git cat-file -s 1d348e485e6d8dc22a8b913d00c75cf461c745f2 [0ms]
+[2022-04-23T13:21:22.515Z] > git ls-files --stage -- /home/andreas/GitHub/Fedora/root.sh [1ms]
+[2022-04-23T13:21:22.517Z] > git cat-file -s 1d348e485e6d8dc22a8b913d00c75cf461c745f2 [1ms]

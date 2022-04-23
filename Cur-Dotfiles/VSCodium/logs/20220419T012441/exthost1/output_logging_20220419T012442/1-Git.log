@@ -1,0 +1,11 @@
+[2022-04-18T23:24:42.691Z] Validating found git in: git
+[2022-04-18T23:24:42.698Z] Using git 2.35.1 from git
+[2022-04-18T23:24:42.710Z] > git rev-parse --git-dir [1ms]
+[2022-04-18T23:24:42.712Z] Open repository: /home/andreas/GitHub/Other
+[2022-04-18T23:24:42.733Z] > git symbolic-ref --short HEAD [9ms]
+[2022-04-18T23:24:42.738Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main [2ms]
+[2022-04-18T23:24:42.743Z] > git remote --verbose [2ms]
+[2022-04-18T23:24:42.743Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+[2022-04-18T23:24:42.749Z] > git config --get commit.template [2ms]
+[2022-04-18T23:24:43.024Z] > git ls-files --stage -- /home/andreas/GitHub/Other/CSGO/autoexec.cfg [1ms]
+[2022-04-18T23:24:43.026Z] > git cat-file -s 164d52fe1a1f65b5fd574ce1e33f8e8a5f59b21c [1ms]

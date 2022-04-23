@@ -1,0 +1,79 @@
+[2022-04-17 14:11:04.063] [info]  Checking for update
+[2022-04-17 14:11:04.069] [info]  Generated new staging user ID: 253ddc3e-4f11-5686-b6ec-476641402fb2
+[2022-04-17 14:11:04.613] [info]  Update for version 1.32.1 is not available (latest version: 1.32.1, downgrade is disallowed).
+[2022-04-17 14:11:39.798] [error] TypeError: Object has been destroyed
+    at WindowMain.<anonymous> (/tmp/.mount_BitwarC742uB/resources/app.asar/main.js:52653:36)
+    at Generator.next (<anonymous>)
+    at /tmp/.mount_BitwarC742uB/resources/app.asar/main.js:52467:71
+    at new Promise (<anonymous>)
+    at window_main_awaiter (/tmp/.mount_BitwarC742uB/resources/app.asar/main.js:52463:12)
+    at WindowMain.updateWindowState (/tmp/.mount_BitwarC742uB/resources/app.asar/main.js:52648:16)
+    at WindowMain.<anonymous> (/tmp/.mount_BitwarC742uB/resources/app.asar/main.js:52602:28)
+    at Generator.next (<anonymous>)
+    at /tmp/.mount_BitwarC742uB/resources/app.asar/main.js:52467:71
+    at new Promise (<anonymous>)
+[2022-04-17 14:11:48.814] [info]  Checking for update
+[2022-04-17 14:11:49.374] [info]  Update for version 1.32.1 is not available (latest version: 1.32.1, downgrade is disallowed).
+[2022-04-17 14:12:33.412] [error] TypeError: Object has been destroyed
+    at WindowMain.<anonymous> (/tmp/.mount_BitwarUNNYCw/resources/app.asar/main.js:52653:36)
+    at Generator.next (<anonymous>)
+    at /tmp/.mount_BitwarUNNYCw/resources/app.asar/main.js:52467:71
+    at new Promise (<anonymous>)
+    at window_main_awaiter (/tmp/.mount_BitwarUNNYCw/resources/app.asar/main.js:52463:12)
+    at WindowMain.updateWindowState (/tmp/.mount_BitwarUNNYCw/resources/app.asar/main.js:52648:16)
+    at WindowMain.<anonymous> (/tmp/.mount_BitwarUNNYCw/resources/app.asar/main.js:52602:28)
+    at Generator.next (<anonymous>)
+    at /tmp/.mount_BitwarUNNYCw/resources/app.asar/main.js:52467:71
+    at new Promise (<anonymous>)
+[2022-04-17 14:12:45.027] [info]  Checking for update
+[2022-04-17 14:12:45.449] [info]  Update for version 1.32.1 is not available (latest version: 1.32.1, downgrade is disallowed).
+[2022-04-17 14:12:59.559] [error] TypeError: Object has been destroyed
+    at WindowMain.<anonymous> (/tmp/.mount_BitwarjtAe2u/resources/app.asar/main.js:52653:36)
+    at Generator.next (<anonymous>)
+    at /tmp/.mount_BitwarjtAe2u/resources/app.asar/main.js:52467:71
+    at new Promise (<anonymous>)
+    at window_main_awaiter (/tmp/.mount_BitwarjtAe2u/resources/app.asar/main.js:52463:12)
+    at WindowMain.updateWindowState (/tmp/.mount_BitwarjtAe2u/resources/app.asar/main.js:52648:16)
+    at WindowMain.<anonymous> (/tmp/.mount_BitwarjtAe2u/resources/app.asar/main.js:52602:28)
+    at Generator.next (<anonymous>)
+    at /tmp/.mount_BitwarjtAe2u/resources/app.asar/main.js:52467:71
+    at new Promise (<anonymous>)
+[2022-04-17 14:24:42.946] [info]  Checking for update
+[2022-04-17 14:24:43.616] [info]  Update for version 1.32.1 is not available (latest version: 1.32.1, downgrade is disallowed).
+[2022-04-17 14:26:06.551] [error] TypeError: Object has been destroyed
+    at WindowMain.<anonymous> (/tmp/.mount_BitwarXbZ9hQ/resources/app.asar/main.js:52653:36)
+    at Generator.next (<anonymous>)
+    at /tmp/.mount_BitwarXbZ9hQ/resources/app.asar/main.js:52467:71
+    at new Promise (<anonymous>)
+    at window_main_awaiter (/tmp/.mount_BitwarXbZ9hQ/resources/app.asar/main.js:52463:12)
+    at WindowMain.updateWindowState (/tmp/.mount_BitwarXbZ9hQ/resources/app.asar/main.js:52648:16)
+    at WindowMain.<anonymous> (/tmp/.mount_BitwarXbZ9hQ/resources/app.asar/main.js:52602:28)
+    at Generator.next (<anonymous>)
+    at /tmp/.mount_BitwarXbZ9hQ/resources/app.asar/main.js:52467:71
+    at new Promise (<anonymous>)
+[2022-04-17 14:43:56.962] [info]  Checking for update
+[2022-04-17 14:43:57.910] [info]  Update for version 1.32.1 is not available (latest version: 1.32.1, downgrade is disallowed).
+[2022-04-17 14:44:18.535] [error] TypeError: Object has been destroyed
+    at WindowMain.<anonymous> (/tmp/.mount_BitwarkifYbY/resources/app.asar/main.js:52653:36)
+    at Generator.next (<anonymous>)
+    at /tmp/.mount_BitwarkifYbY/resources/app.asar/main.js:52467:71
+    at new Promise (<anonymous>)
+    at window_main_awaiter (/tmp/.mount_BitwarkifYbY/resources/app.asar/main.js:52463:12)
+    at WindowMain.updateWindowState (/tmp/.mount_BitwarkifYbY/resources/app.asar/main.js:52648:16)
+    at WindowMain.<anonymous> (/tmp/.mount_BitwarkifYbY/resources/app.asar/main.js:52602:28)
+    at Generator.next (<anonymous>)
+    at /tmp/.mount_BitwarkifYbY/resources/app.asar/main.js:52467:71
+    at new Promise (<anonymous>)
+[2022-04-17 15:03:26.770] [info]  Checking for update
+[2022-04-17 15:03:27.210] [info]  Update for version 1.32.1 is not available (latest version: 1.32.1, downgrade is disallowed).
+[2022-04-17 15:04:13.293] [error] TypeError: Object has been destroyed
+    at WindowMain.<anonymous> (/tmp/.mount_BitwarWQtCvT/resources/app.asar/main.js:52653:36)
+    at Generator.next (<anonymous>)
+    at /tmp/.mount_BitwarWQtCvT/resources/app.asar/main.js:52467:71
+    at new Promise (<anonymous>)
+    at window_main_awaiter (/tmp/.mount_BitwarWQtCvT/resources/app.asar/main.js:52463:12)
+    at WindowMain.updateWindowState (/tmp/.mount_BitwarWQtCvT/resources/app.asar/main.js:52648:16)
+    at WindowMain.<anonymous> (/tmp/.mount_BitwarWQtCvT/resources/app.asar/main.js:52602:28)
+    at Generator.next (<anonymous>)
+    at /tmp/.mount_BitwarWQtCvT/resources/app.asar/main.js:52467:71
+    at new Promise (<anonymous>)
