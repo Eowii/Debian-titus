@@ -47,10 +47,7 @@ mkdir /home/$username/Wallpapers/
 cd /home/$username/Wallpapers/
 wget https://github.com/Eowii/Windows/raw/main/wallpaper.jpg
 
-#sudo mkdir ‑p /usr/share/sddm/themes
-#cd /usr/share/sddm/themes
-#git clone https://framagit.org/MarianArlt/sddm-sugar-candy.git/
-#sudo sed -i 's/#Current=01-breeze-fedora/Current=sddm-sugar-candy/' /etc/sddm.conf
+sudo sed -i 's/#User=/User='$username'/' /etc/sddm.conf
 
 
 chown -R $username:$username /home/$username
