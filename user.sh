@@ -4,6 +4,6 @@ username=$(id -u -n 1000)
 builddir=$(pwd)
 
 cd ~/betterlockscreen
-./install user
+./install.sh user
 
 betterlockscreen -u ~/Wallpapers/
