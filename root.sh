@@ -72,9 +72,6 @@ cd betterlockscreen
 su - $username -c "./install user"
 cd /home/$username/
 
-betterlockscreen -u ~/Wallpapers/
-
-
 # Boots into graphical UI
 sudo systemctl set-default graphical.target
 
