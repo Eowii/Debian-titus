@@ -47,10 +47,10 @@ mkdir /home/$username/Wallpapers/
 cd /home/$username/Wallpapers/
 wget https://github.com/Eowii/Windows/raw/main/wallpaper.jpg
 
-sudo mkdir ‑p /usr/share/sddm/themes
-cd /usr/share/sddm/themes
-git clone https://framagit.org/MarianArlt/sddm-sugar-candy.git/
-sudo sed -i 's/#Current=01-breeze-fedora/Current=sddm-sugar-candy/' /etc/sddm.conf
+#sudo mkdir ‑p /usr/share/sddm/themes
+#cd /usr/share/sddm/themes
+#git clone https://framagit.org/MarianArlt/sddm-sugar-candy.git/
+#sudo sed -i 's/#Current=01-breeze-fedora/Current=sddm-sugar-candy/' /etc/sddm.conf
 
 
 chown -R $username:$username /home/$username
@@ -67,12 +67,12 @@ EndSection" > /etc/X11/xorg.conf.d/50-mouse-acceleration.conf
 cd /home/$username/
 git clone https://github.com/Raymo111/i3lock-color.git
 cd i3lock-color
-./install-i3lock-color.sh
+su - $username -c "./install-i3lock-color.sh"
 
 cd /home/$username/
 git clone https://github.com/betterlockscreen/betterlockscreen
 cd betterlockscreen
-./install user
+su - $username -c "./install user"
 cd /home/$username/
 
 betterlockscreen -u ~/Wallpapers/
