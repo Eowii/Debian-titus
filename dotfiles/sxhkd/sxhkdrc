@@ -16,7 +16,7 @@ super + Escape
 
 # My program Hotkeys
 super + b
-	brave-browser-stable
+	firefox
 
 super + p 
 	flameshot full -p /media/drive/Screenshots
@@ -67,7 +67,7 @@ super + ctrl + {m,x,y,z}
 #
 
 # focus the node in the given direction
-super + {_,shift + }{h,j,k,l}
+super + {_,shift + }{h,j,k,ö}
 	bspc node -{f,s} {west,south,north,east}
 
 # focus the node for the given path jump
@@ -139,3 +139,7 @@ XF86AudioRaiseVolume
 	amixer set Master 5%+
 XF86AudioMute
         amixer set Master toggle
+
+#Lock the computer
+super + shift + l
+	betterlockscreen -l blur
