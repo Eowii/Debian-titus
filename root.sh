@@ -70,7 +70,7 @@ cd i3lock-color
 ./install-i3lock-color.sh
 
 cd /home/$username/
-https://github.com/betterlockscreen/betterlockscreen
+git clone https://github.com/betterlockscreen/betterlockscreen
 cd betterlockscreen
 ./install user
 cd /home/$username/
