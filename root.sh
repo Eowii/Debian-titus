@@ -53,7 +53,7 @@ cd /home/$username/Wallpapers/
 wget https://github.com/Eowii/Windows/raw/main/wallpaper.jpg
 
 sudo sed -i 's/#User=/User='$username'/' /etc/sddm.conf
-
+sudo sed -i 's/#Session=/Session=bspwm/' /etc/sddm.conf
 
 chown -R $username:$username /home/$username
 
