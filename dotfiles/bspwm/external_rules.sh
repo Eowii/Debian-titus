@@ -37,7 +37,7 @@ echo -e "Name:$w_name\nID:$w_id\nInstance:$w_instance\nClass:$w_class" > ~/test.
 if [[ "$w_name" == "Friends List" ]] && [[ "$w_instance" == "Steam" ]]; then   
  	echo "desktop=^11"
 	#echo "split_dir=east"
-	echo "rectangle=400x1080+2160+0"
+	echo "rectangle=500x1080+2160+0"
 	echo "state=floating"
 fi
 
@@ -49,17 +49,17 @@ if [[ "$w_name" == "TeamSpeak 3" ]]; then
 fi
 
 if [[ "$w_name" == "Discord" ]]; then   
- 	echo "desktop=^3"
+ 	echo "desktop=^11"
 	echo "split_dir=east"
-	#echo "rectangle=1176x1080+0+0"
-	#echo "state=floating"
+	echo "rectangle=1250x1080+0+0"
+	echo "state=floating"
 fi
 
 if [[ "$w_name" == *"("*")" ]] && [[ "$w_instance" == "Steam" ]]; then   
- 	echo "desktop=^11"
+ 	echo "desktop=^3"
 	#echo "split_dir=east"
-	echo "rectangle=1520x1080+0+0"
-	echo "state=floating"
+	#echo "rectangle=1520x1080+0+0"
+	#echo "state=floating"
 
 fi
 
@@ -103,6 +103,12 @@ fi
 if [[ "$w_name" == "Obsidian Vault"* ]]; then   
  	echo "desktop=^7"
 fi
+
+if [[ "$w_instance" == "bitwarden" ]]; then   
+ 	echo "state=floating"
+	echo "rectangle=980x735+790+352" 
+fi
+
 
 #if [[ "$w_instance" == "Steam" ]]; then   
 # 	echo "state=floating"

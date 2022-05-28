@@ -57,7 +57,7 @@ case $chosen in
         ;;
     $lock)
 		if [[ -f /usr/bin/i3lock ]]; then
-			i3lock
+			betterlockscreen -l blur
 		elif [[ -f /usr/bin/betterlockscreen ]]; then
 			betterlockscreen -l
 		fi
@@ -87,7 +87,8 @@ case $chosen in
 		elif [[ $ans == "no" || $ans == "NO" || $ans == "n" || $ans == "N" ]]; then
 			exit 0
         else
-			msg
+			#msg
+			bspc quit
         fi
         ;;
 esac
