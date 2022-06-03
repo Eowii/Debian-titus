@@ -29,7 +29,7 @@ setxkbmap -layout se
 
 #Monitor Config
 bspc monitor DP-2 -d 1 2 3 4 5 6 7 8 9 10
-bspc monitor HDMI-0 -d 11
+bspc monitor HDMI-0 -d 11 12
 
 #BSPWM Config
 bspc config border_width        0

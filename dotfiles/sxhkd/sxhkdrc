@@ -96,6 +96,14 @@ super + {o,i}
 super + {_,shift + }{1-9,0}
 	bspc {desktop -f,node -d} '^{1-9,10}'
 
+# focus or send to the given desktop
+super + ctrl + {1,2}
+        bspc node -d {11,12}
+
+super + alt + {1,2}
+	bspc desktop -f {11,12}
+
+
 #
 # preselect
 #
