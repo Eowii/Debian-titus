@@ -33,8 +33,8 @@ dnf upgrade --refresh -y
 #dnf install xcursorgen python-cairosvg -y
 #dnf install winetricks protontricks gamemode -y
 
-dnf install $(cat install-packages.txt)
-dnf install $(cat nobara-installed.txt)
+dnf install $(cat install-packages.txt) -y
+dnf install $(cat nobara-installed.txt) -y
 
 wget https://github.com/TheAssassin/AppImageLauncher/releases/download/v2.2.0/appimagelauncher-2.2.0-travis995.0f91801.x86_64.rpm
 dnf install appimagelauncher-2.2.0-travis995.0f91801.x86_64.rpm -y
