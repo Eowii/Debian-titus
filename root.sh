@@ -63,11 +63,27 @@ chmod +x /home/$username/.local/bin/*
 mkdir -p /home/$username/.config
 cp .Xresources /home/$username
 cp .Xnord /home/$username
-cp -R dotfiles/* /home/$username/.config/
+#cp -R dotfiles/* /home/$username/.config/
 cp gamemode.ini /usr/share/gamemode/
 mkdir /home/$username/Wallpapers/
 cd /home/$username/Wallpapers/
 wget https://github.com/Eowii/Windows/raw/main/wallpaper.jpg
+
+
+mkdir /home/$username/GitHub/Fedora/dotfiles/ -p 
+cp -R $builddir/dotfiles/* /home/$username/GitHub/Fedora/dotfiles/
+
+cd /home/$username/.config
+
+FILES="/home/$username/GitHub/Fedora/dotfiles/*"
+for f in $FILES
+do
+  ln -sf $f
+  echo "Processing $f file..."
+done
+
+
+
 
 sudo sed -i 's/#User=/User='$username'/' /etc/sddm.conf
 sudo sed -i 's/#Session=/Session=bspwm/' /etc/sddm.conf
@@ -104,6 +120,8 @@ chown -R $username:$username /home/$username
 # Boots into graphical UI
 sudo systemctl set-default graphical.target
 
+#Sets the volume to 100%
+pactl -- set-sink-volume 0 100%
 
 echo ">>>>>> Reboot and run user.sh as your user. <<<<<<"
 echo ">>>>>> Reboot and run user.sh as your user. <<<<<<"
