@@ -70,7 +70,7 @@ wget https://github.com/Eowii/Windows/raw/main/wallpaper.jpg
 sudo sed -i 's/#User=/User='$username'/' /etc/sddm.conf
 sudo sed -i 's/#Session=/Session=bspwm/' /etc/sddm.conf
 
-chown -R $username:$username /home/$username
+
 
 #Removes mouse accel
  echo "Section \"InputClass\"
@@ -97,11 +97,14 @@ git clone https://github.com/vinceliuice/Vimix-cursors
 cd Vimix-cursors
 ./install.sh
 
-chown $username:$username /home/$username/*
+chown -R $username:$username /home/$username
 
 # Boots into graphical UI
 sudo systemctl set-default graphical.target
 
-echo "Run user.sh as your user."
-cd $builddir
-su - $username -c "./user.sh"
+
+echo ">>>>>> Reboot and run user.sh as your user. <<<<<<"
+echo ">>>>>> Reboot and run user.sh as your user. <<<<<<"
+echo ">>>>>> Reboot and run user.sh as your user. <<<<<<"
+#cd $builddir
+#su - $username -c "./user.sh"
