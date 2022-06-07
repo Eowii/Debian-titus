@@ -18,22 +18,23 @@ dnf copr enable gloriouseggroll/edk2 -y
 dnf copr enable gloriouseggroll/obs-studio-gamecapture -y
 dnf copr enable sentry/kernel-fsync -y
 dnf copr enable sentry/xone -y
-dnf copr enable phracek/PyCharm  -y
 
 
 dnf upgrade --refresh -y
 
 # Add base packages
 
-dnf install rofi yad unzip picom bspwm polybar sddm rofi kitty thunar flameshot neofetch sxhkd git lxpolkit lxappearance feh xsetroot dunst nano xset -y
-dnf install @base-x @firefox -y
-dnf install papirus-icon-theme google-noto-emoji-color-fonts fira-code-fonts fontawesome5-fonts-all qt5-qtsvg qt5-qtquickcontrols arandr pavucontrol -y
-dnf install autoconf automake cairo-devel fontconfig gcc libev-devel libjpeg-turbo-devel libXinerama libxkbcommon-devel libxkbcommon-x11-devel libXrandr pam-devel pkgconf xcb-util-image-devel xcb-util-xrm-devel -y
-dnf install qt5-qtgraphicaleffects -y
-dnf install vdpauinfo libva-vdpau-driver libva-utils -y
-dnf install xcursorgen python-cairosvg -y
-dnf install winetricks protontricks gamemode -y
+#dnf install rofi yad unzip picom bspwm polybar sddm rofi kitty thunar flameshot neofetch sxhkd git lxpolkit lxappearance feh xsetroot dunst nano xset -y
+#dnf install @base-x @firefox -y
+#dnf install papirus-icon-theme google-noto-emoji-color-fonts fira-code-fonts fontawesome5-fonts-all qt5-qtsvg qt5-qtquickcontrols arandr pavucontrol -y
+#dnf install autoconf automake cairo-devel fontconfig gcc libev-devel libjpeg-turbo-devel libXinerama libxkbcommon-devel libxkbcommon-x11-devel libXrandr pam-devel pkgconf xcb-util-image-devel xcb-util-xrm-devel -y
+#dnf install qt5-qtgraphicaleffects -y
+#dnf install vdpauinfo libva-vdpau-driver libva-utils -y
+#dnf install xcursorgen python-cairosvg -y
+#dnf install winetricks protontricks gamemode -y
 
+dnf install $(cat install-packages.txt)
+dnf install $(cat nobara-installed.txt)
 
 wget https://github.com/TheAssassin/AppImageLauncher/releases/download/v2.2.0/appimagelauncher-2.2.0-travis995.0f91801.x86_64.rpm
 dnf install appimagelauncher-2.2.0-travis995.0f91801.x86_64.rpm -y
