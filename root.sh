@@ -3,9 +3,23 @@
 username=$(id -u -n 1000)
 builddir=$(pwd)
 
+echo "fastestmirror=1" >> /etc/dnf/dnf.conf
+echo "max_parallel_downloads=10" >> /etc/dnf/dnf.conf
+
 # Update packages list
 dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm -y
 dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm -y
+dnf copr enable gloriouseggroll/nobara -y
+#dnf copr enable gloriouseggroll/mesa-aco -y
+dnf copr enable gloriouseggroll/glibc -y
+dnf copr enable gloriouseggroll/game-utils -y
+dnf copr enable gloriouseggroll/openal-soft -y
+dnf copr enable gloriouseggroll/edk2 -y
+dnf copr enable gloriouseggroll/obs-studio-gamecapture -y
+dnf copr enable sentry/kernel-fsync -y
+dnf copr enable sentry/xone -y
+
+
 dnf upgrade --refresh -y
 
 # Add base packages
@@ -42,6 +56,7 @@ cd $builddir
 mkdir -p  /home/$username/.local/bin/
 cp -R dotfiles/.local /home/$username/
 chmod +x /home/$username/.local/bin/*
+
 
 mkdir -p /home/$username/.config
 cp .Xresources /home/$username
