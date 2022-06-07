@@ -18,6 +18,7 @@ dnf copr enable gloriouseggroll/edk2 -y
 dnf copr enable gloriouseggroll/obs-studio-gamecapture -y
 dnf copr enable sentry/kernel-fsync -y
 dnf copr enable sentry/xone -y
+dnf copr enable phracek/PyCharm  -y
 
 
 dnf upgrade --refresh -y
