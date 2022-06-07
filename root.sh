@@ -103,3 +103,5 @@ chown $username:$username /home/$username/*
 sudo systemctl set-default graphical.target
 
 echo "Run user.sh as your user."
+cd $builddir
+su - $username -c "./user.sh"
