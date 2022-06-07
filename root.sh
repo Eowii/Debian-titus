@@ -120,9 +120,6 @@ chown -R $username:$username /home/$username
 # Boots into graphical UI
 sudo systemctl set-default graphical.target
 
-#Sets the volume to 100%
-pactl -- set-sink-volume 0 100%
-
 echo ">>>>>> Reboot and run user.sh as your user. <<<<<<"
 echo ">>>>>> Reboot and run user.sh as your user. <<<<<<"
 echo ">>>>>> Reboot and run user.sh as your user. <<<<<<"
