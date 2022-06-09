@@ -36,8 +36,32 @@ dnf upgrade --refresh -y
 dnf install $(cat install-packages.txt) -y
 dnf install $(cat nobara-installed.txt) -y
 
+#Appimage Launcher
 wget https://github.com/TheAssassin/AppImageLauncher/releases/download/v2.2.0/appimagelauncher-2.2.0-travis995.0f91801.x86_64.rpm
 dnf install appimagelauncher-2.2.0-travis995.0f91801.x86_64.rpm -y
+
+#GitHub-Desktop
+wget https://github.com/shiftkey/desktop/releases/download/release-3.0.0-linux2/GitHubDesktop-linux-3.0.0-linux2.rpm
+dnf install GitHubDesktop-linux-3.0.0-linux2.rpm
+
+#VSCodium
+rpmkeys --import https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg
+printf "[gitlab.com_paulcarroty_vscodium_repo]\nname=download.vscodium.com\nbaseurl=https://download.vscodium.com/rpms/\nenabled=1\ngpgcheck=1\nrepo_gpgcheck=1\ngpgkey=https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg\nmetadata_expire=1h" | sudo tee -a /etc/yum.repos.d/vscodium.repo
+
+#Parsec
+flatpak install parsec -y
+
+#Discord
+flatpak install discord -y
+
+#Spotify
+flatpak install spotify -y
+
+#BitWarden
+mkdir -p /home/$username/AppImg
+cd /home/$username/AppImg
+wget https://github.com/bitwarden/desktop/releases/download/v2022.5.1/Bitwarden-2022.5.1-x86_64.AppImage
+
 
 # mscorefonts-ttf
 #sudo dnf install curl cabextract xorg-x11-font-utils fontconfig -y

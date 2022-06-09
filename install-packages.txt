@@ -1,5 +1,6 @@
 @base-x
 @firefox
+htop
 rofi
 yad
 unzip
@@ -53,3 +54,5 @@ python-cairosvg
 winetricks
 protontricks
 gamemode
+codium
+steam
