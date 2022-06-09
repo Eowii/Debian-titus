@@ -55,4 +55,3 @@ winetricks
 protontricks
 gamemode
 codium
-steam
