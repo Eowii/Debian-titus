@@ -8,7 +8,7 @@ w_name=`echo "$w_name1" | cut -d'"' -f 2`
 
 
 
-echo -e "Name:$w_name\nID:$w_id\nInstance:$w_instance\nClass:$w_class" > ~/test.txt
+echo -e "Name:$w_name\nID:$w_id\nInstance:$w_instance\nClass:$w_class\n----------------------------" >> ~/test.txt
 
 #*"("*")"
 
@@ -64,10 +64,10 @@ if [[ "$w_name" == *"("*")" ]] && [[ "$w_instance" == "Steam" ]]; then
 fi
 
 if [[ "$w_name" == "Untitled" ]] && [[ "$w_instance" == "Steam" ]]; then   
- 	echo "desktop=^11"
+ 	echo "desktop=^3"
 	#echo "split_dir=east"
-	echo "rectangle=1520x1080+0+0"
-	echo "state=floating"
+	#echo "rectangle=1520x1080+0+0"
+	#echo "state=floating"
 
 fi
 
