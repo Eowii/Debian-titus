@@ -6,7 +6,7 @@ declare -A apps
 
 apps=(
   [steam]="steam"
-  [discord]="Discord"
+  [discord]="flatpak run com.discordapp.Discord"
   [spotify]="spotify"
 )
 
