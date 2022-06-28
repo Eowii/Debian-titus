@@ -45,7 +45,6 @@ obs-studio-gamecapture.i686
 obs-studio-libs.x86_64
 pciutils.x86_64
 pciutils-libs.x86_64
-protonup-qt.x86_64
 python3-dnf.noarch
 python3-dnfdaemon.noarch
 rpmfusion-free-release.noarch
