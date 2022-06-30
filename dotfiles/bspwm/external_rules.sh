@@ -118,7 +118,7 @@ if [[ "$w_instance" == "bitwarden" ]]; then
 fi
 
 
-#if [[ "$w_instance" == "Steam" ]]; then   
+#if [[ "$w_name" == "  not found." ]]; then   
 # 	echo "state=floating"
 #fi
 
