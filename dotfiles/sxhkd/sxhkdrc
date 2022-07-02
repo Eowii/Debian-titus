@@ -142,11 +142,23 @@ super + {Left,Down,Up,Right}
 	
 # volume control
 XF86AudioLowerVolume
-	amixer set Master 5%-
+	pactl -- set-sink-volume 0 -5%
+
 XF86AudioRaiseVolume
-	amixer set Master 5%+
+	pactl -- set-sink-volume 0 +5%
+
 XF86AudioMute
-        amixer set Master toggle
+	pactl -- set-sink-mute 0 toggle
+
+#Media control
+XF86AudioPlay
+	playerctl -a -i firefox,chrome,brave play-pause
+
+XF86AudioNext
+	playerctl -a -i firefox,chrome,brave next
+
+XF86AudioPrev
+	playerctl -a -i firefox,chrome,brave previous
 
 #Lock the computer
 super + shift + l

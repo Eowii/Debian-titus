@@ -10,4 +10,5 @@ pactl -- set-sink-volume 0 100%
 
 
 sed -i 's/bash ~\/user.sh//' ~/.config/bspwm/bspwmrc
-rm ~/user.sh
+cd ~
+rm -rf user.sh betterlockscreen eww fedora i3lock-color Vimix-cursors
