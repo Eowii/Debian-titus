@@ -148,6 +148,10 @@ git clone https://github.com/vinceliuice/Vimix-cursors
 cd Vimix-cursors
 ./install.sh
 
+curl https://sh.rustup.rs -sSf | sh -s -- --default-toolchain nightly -y
+source $HOME/.cargo/env
+
+
 cd /home/$username/
 git clone https://github.com/elkowar/eww
 cd eww
