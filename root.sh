@@ -101,8 +101,10 @@ mkdir /home/$username/Wallpapers/
 cp $builddir/wallpaper.jpg /home/$username/Wallpapers/
 
 
-mkdir /home/$username/GitHub/Fedora/dotfiles/ -p 
-cp -R $builddir/dotfiles/* /home/$username/GitHub/Fedora/dotfiles/
+mkdir /home/$username/GitHub/ -p
+cp -R $builddir /home/$username/GitHub/
+
+#cp -R $builddir/dotfiles/* /home/$username/GitHub/Fedora/dotfiles/
 
 cd /home/$username/.config
 
