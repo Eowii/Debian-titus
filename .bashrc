@@ -457,3 +457,4 @@ unset bash_prompt
 unset rc
 
 alias upgrade="sudo dnf upgrade && sudo flatpak upgrade"
+source $HOME/.cargo/env

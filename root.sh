@@ -114,7 +114,8 @@ do
   echo "Processing $f file..."
 done
 
-
+cd /home/$username/
+ln -sf /home/$username/GitHub/Fedora/.bashrc
 
 
 sudo sed -i 's/#User=/User='$username'/' /etc/sddm.conf
@@ -146,6 +147,13 @@ cd /home/$username/
 git clone https://github.com/vinceliuice/Vimix-cursors
 cd Vimix-cursors
 ./install.sh
+
+cd /home/$username/
+git clone https://github.com/elkowar/eww
+cd eww
+cargo build --release
+cd target/release
+mv eww /usr/bin/eww
 
 chown -R $username:$username /home/$username
 
