@@ -9,4 +9,4 @@ betterlockscreen -u ~/Wallpapers/wallpaper.jpg
 pactl -- set-sink-volume 0 100%
 
 
-sed -i 's//home/$username///' ~/.config/bspwm/bspwmrc
+sed -i 's/bash ~\/user.sh//' ~/.config/bspwm/bspwmrc

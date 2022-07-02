@@ -102,7 +102,7 @@ cp $builddir/wallpaper.jpg /home/$username/Wallpapers/
 
 
 mkdir /home/$username/GitHub/Fedora/ -p
-cp -R $builddir/* /home/$username/GitHub/Fedora/
+cp -R $builddir/. /home/$username/GitHub/Fedora/
 
 #cp -R $builddir/dotfiles/* /home/$username/GitHub/Fedora/dotfiles/
 
