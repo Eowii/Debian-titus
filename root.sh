@@ -155,10 +155,16 @@ cargo build --release
 cd target/release
 mv eww /usr/bin/eww
 
+cd $builddir
+cp user.sh /home/$username/
+
+echo "bash ~/user.sh" >> /home/$username/.config/bspwm/bspwmrc
+
 chown -R $username:$username /home/$username
 
 # Boots into graphical UI
 sudo systemctl set-default graphical.target
+
 
 echo ">>>>>> Reboot and run user.sh as your user. <<<<<<"
 echo ">>>>>> Reboot and run user.sh as your user. <<<<<<"
