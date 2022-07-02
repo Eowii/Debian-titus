@@ -165,6 +165,8 @@ cp user.sh /home/$username/
 
 echo "bash ~/user.sh" >> /home/$username/.config/bspwm/bspwmrc
 
+ln -sf /home/$username/GitHub/Fedora/user.js /home/$username/.mozilla/firefox/*.default-release/
+
 chown -R $username:$username /home/$username
 
 # Boots into graphical UI
