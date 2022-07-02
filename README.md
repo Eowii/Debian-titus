@@ -1,5 +1,6 @@
 # Fedora
 Automatic fedora install
+https://getfedora.org/en/server/download/
 
 ``` 
 sudo dnf install git
