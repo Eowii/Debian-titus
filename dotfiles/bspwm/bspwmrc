@@ -5,7 +5,7 @@
 
 #Start polybar first
 bash ~/.config/polybar/launch.sh &
-feh --bg-fill ~/Wallpapers/ign_astronaut.png &
+feh --bg-fill ~/Wallpapers/wallpaper.jpg &
 
 # Variable Defines
 color0=#3B4252

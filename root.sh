@@ -98,8 +98,7 @@ cp .Xnord /home/$username
 #cp -R dotfiles/* /home/$username/.config/
 cp gamemode.ini /usr/share/gamemode/
 mkdir /home/$username/Wallpapers/
-cd /home/$username/Wallpapers/
-wget https://github.com/Eowii/Windows/raw/main/wallpaper.jpg
+cp $builddir/wallpaper.jpg /home/$username/Wallpapers/
 
 
 mkdir /home/$username/GitHub/Fedora/dotfiles/ -p 
