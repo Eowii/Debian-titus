@@ -79,6 +79,15 @@ if [[ "$w_name" == *"("*")"" + "* ]] && [[ "$w_instance" == "Steam" ]]; then
 
 fi
 
+if [[ "$w_name" == "WM_NAME(UTF8_STRING) = " ]] && [[ "$w_instance" == "Steam" ]]; then   
+ 	echo "desktop=^3"
+	#echo "split_dir=east"
+	#echo "rectangle=1520x1080+0+0"
+	#echo "state=floating"
+
+fi
+
+
 if [[ "$w_name" == "Steam" ]] && [[ "$w_instance" == "Steam" ]]; then   
  	echo "desktop=^9"
 fi 

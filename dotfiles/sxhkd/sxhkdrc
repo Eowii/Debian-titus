@@ -19,10 +19,10 @@ super + b
 	firefox
 
 super + p 
-	flameshot full -p /media/drive/Screenshots
+	flameshot full
 
 super + shift + p
-	flameshot gui -p /media/drive/Screenshots
+	flameshot gui
 
 #
 # bspwm hotkeys
