@@ -8,6 +8,7 @@ apps=(
   [steam]="steam"
   [discord]="flatpak run com.discordapp.Discord"
   [spotify]="spotify"
+  [eww daemon]="eww daemon"
 )
 
 # Detect if applications are already running. If not, start them.
