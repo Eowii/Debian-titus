@@ -2,6 +2,10 @@
 # wm independent hotkeys
 #
 
+# Bitwarden
+super+ v
+	./Applications/Bitwarden*
+
 # terminal emulator
 super + x
 	kitty 
