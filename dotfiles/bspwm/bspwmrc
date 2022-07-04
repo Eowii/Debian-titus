@@ -90,6 +90,8 @@ flameshot &
 #sleep 1
 
 bspc config external_rules_command ~/.config/bspwm/external_rules.sh
+bash ~/.config/bspwm/sound-setup.sh
 bash ~/.config/bspwm/autorun.sh
+
 
 bspc desktop -f ^1

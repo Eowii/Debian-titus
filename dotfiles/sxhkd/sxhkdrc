@@ -146,7 +146,7 @@ super + {Left,Down,Up,Right}
 	
 # volume control
 XF86AudioLowerVolume
-		pactl -- set-sink-volume 0 -5%
+		pactl -- set-sink-volume alsa_output.usb-Logitech_PRO_X_Wireless_Gaming_Headset-00.analog-stereo -5%
 
 XF86AudioRaiseVolume
 	bash ~/.config/sxhkd/vol-up.sh
