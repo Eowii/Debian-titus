@@ -9,6 +9,7 @@ apps=(
   [discord]="flatpak run com.discordapp.Discord"
   [spotify]="spotify"
   [eww daemon]="eww daemon"
+  [noisetorch]="noisetorch -i"
 )
 
 # Detect if applications are already running. If not, start them.
