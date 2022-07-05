@@ -41,6 +41,9 @@ dnf upgrade --refresh -y
 dnf install $(cat install-packages.txt) -y
 dnf install $(cat nobara-installed.txt) -y
 
+#Installing flatpaks
+flatpak install $(cat install-flatpak.txt) -y
+
 #Appimage Launcher
 wget https://github.com/TheAssassin/AppImageLauncher/releases/download/v2.2.0/appimagelauncher-2.2.0-travis995.0f91801.x86_64.rpm
 dnf install appimagelauncher-2.2.0-travis995.0f91801.x86_64.rpm -y
@@ -52,18 +55,6 @@ dnf install GitHubDesktop-linux-3.0.0-linux2.rpm -y
 #VSCodium
 rpmkeys --import https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg
 printf "[gitlab.com_paulcarroty_vscodium_repo]\nname=download.vscodium.com\nbaseurl=https://download.vscodium.com/rpms/\nenabled=1\ngpgcheck=1\nrepo_gpgcheck=1\ngpgkey=https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg\nmetadata_expire=1h" | sudo tee -a /etc/yum.repos.d/vscodium.repo
-
-#Installing flatpaks
-flatpak install $(cat GitHub/Fedora/install-flatpak.txt) -y
-
-#Parsec
-#flatpak install parsec -y
-
-#Discord
-#flatpak install discord -y
-
-#Spotify
-#flatpak install spotify -y
 
 #BitWarden
 mkdir -p /home/$username/AppImg
