@@ -79,6 +79,13 @@ if [[ "$w_name" == *"("*")"" + "* ]] && [[ "$w_instance" == "Steam" ]]; then
 
 fi
 
+if [[ "$w_name" == "+ "* ]] && [[ "$w_instance" == "Steam" ]]; then   
+ 	echo "desktop=^3"
+	#echo "split_dir=east"
+	#echo "rectangle=1520x1080+0+0"
+	#echo "state=floating"
+fi
+
 if [[ "$w_name" == "WM_NAME(UTF8_STRING) = " ]] && [[ "$w_instance" == "Steam" ]]; then   
  	echo "desktop=^3"
 	#echo "split_dir=east"
@@ -96,8 +103,6 @@ if [[ "$w_name" == "WM_NAME:  not found." ]]; then
  	echo "desktop=^5"
 fi
 
-
-FIFA 22 - Steam
 if [[ "$w_name" == "FIFA 22 - Steam" ]]; then   
  	echo "desktop=^2"
 	echo "state=floating"
@@ -135,6 +140,10 @@ fi
 # 	echo "state=floating"
 #fi
 
+if [[ "$w_name" == "Trackmania" ]] && [[ "$w_instance" == "trackmania.exe" ]]; then   
+ 	echo "desktop=^2"
+	echo "state=fullscreen"
+fi 
 
 #Name:Untitled
 #ID:48234696
