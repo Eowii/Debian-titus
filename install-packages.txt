@@ -61,3 +61,4 @@ gdk-pixbuf2-devel
 gtk3-devel
 playerctl
 steam
+google-noto-sans-runic-fonts
