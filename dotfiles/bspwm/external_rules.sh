@@ -131,6 +131,10 @@ if [[ "$w_instance" == "bitwarden" ]]; then
 	echo "rectangle=980x735+790+352" 
 fi
 
+if [[ "$w_class" == "plexmediaplayer" ]]; then   
+ 	echo "desktop=^8"
+fi
+
 
 #if [[ "$w_name" == "  not found." ]]; then   
 # 	echo "state=floating"

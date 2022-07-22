@@ -6,6 +6,8 @@ builddir=$(pwd)
 echo "fastestmirror=1" >> /etc/dnf/dnf.conf
 echo "max_parallel_downloads=10" >> /etc/dnf/dnf.conf
 
+#dnf swap @"KDE Plasma Workspaces" @"Minimal Install"
+
 # Update packages list
 dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm -y
 dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm -y
