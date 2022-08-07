@@ -79,6 +79,18 @@ if [[ "$w_name" == *"("*")"" + "* ]] && [[ "$w_instance" == "Steam" ]]; then
 
 fi
 
+
+if [[ "$w_name" == *" + "* ]] && [[ "$w_instance" == "Steam" ]]; then   
+        echo "desktop=^3"
+        #echo "split_dir=east"
+        #echo "rectangle=1520x1080+0+0"
+        #echo "state=floating"
+
+fi
+
+
+
+
 if [[ "$w_name" == "+ "* ]] && [[ "$w_instance" == "Steam" ]]; then   
  	echo "desktop=^3"
 	#echo "split_dir=east"
@@ -94,6 +106,9 @@ if [[ "$w_name" == "WM_NAME(UTF8_STRING) = " ]] && [[ "$w_instance" == "Steam" ]
 
 fi
 
+if [[ "$w_class" == "ProtonUp-Qt" ]]; then   
+       echo "state=floating"
+fi
 
 if [[ "$w_name" == "Steam" ]] && [[ "$w_instance" == "Steam" ]]; then   
  	echo "desktop=^9"
@@ -135,21 +150,20 @@ if [[ "$w_class" == "plexmediaplayer" ]]; then
  	echo "desktop=^8"
 fi
 
-
-#if [[ "$w_name" == "  not found." ]]; then   
-# 	echo "state=floating"
-#fi
-
-#if [[ "$w_instance" == "Steam" ]]; then   
-# 	echo "state=floating"
-#fi
+if [[ "$w_class" == "Pavucontrol" ]]; then   
+ 	echo "state=floating"
+	echo "rectangle=980x735+790+352" 
+fi
 
 if [[ "$w_name" == "Trackmania" ]] && [[ "$w_instance" == "trackmania.exe" ]]; then   
  	echo "desktop=^2"
 	echo "state=fullscreen"
 fi 
 
-#Name:Untitled
-#ID:48234696
-#Instance:Steam
-#Class:Steam
+#if [[ "$w_name" == "Awakened PoE Trade" ]]; then   
+# 	echo "state=floating"
+#fi
+
+#if [[ "$w_instance" == "Steam" ]]; then   
+# 	echo "state=floating"
+#fi

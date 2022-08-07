@@ -10,6 +10,7 @@ apps=(
   [spotify]="spotify"
   [eww daemon]="eww daemon"
   [noisetorch]="noisetorch -i"
+  [flameshot]="flameshot"
 )
 
 # Detect if applications are already running. If not, start them.

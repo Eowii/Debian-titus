@@ -75,7 +75,7 @@ bspc config focus_follows_pointer true
 sleep 0.50
 lxpolkit &
 picom --config "$HOME/.config/bspwm/picom.conf" &
-flameshot &
+#flameshot &
 #sleep 0.5
 #pingresult=$(ping -c 1 1.1.1.1 > /dev/null ; echo $?)
 #while [ $pingresult -ne 0 ]; do
