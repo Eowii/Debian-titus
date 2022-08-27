@@ -73,7 +73,7 @@ bspc config focus_follows_pointer true
 
 #Auto-Start
 sleep 0.50
-lxpolkit &
+#lxpolkit &
 picom --config "$HOME/.config/bspwm/picom.conf" &
 #flameshot &
 #sleep 0.5

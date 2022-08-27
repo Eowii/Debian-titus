@@ -15,6 +15,14 @@ then
 fi
 export PATH
 
+if [ -d "$HOME/adb-fastboot/platform-tools" ] ; then
+ export PATH="$HOME/adb-fastboot/platform-tools:$PATH"
+fi
+
+
+
+
+
 # Uncomment the following line if you don't like systemctl's auto-paging feature:
 # export SYSTEMD_PAGER=
 

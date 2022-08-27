@@ -11,6 +11,8 @@ apps=(
   [eww daemon]="eww daemon"
   [noisetorch]="noisetorch -i"
   [flameshot]="flameshot"
+  [solaar]="solaar -w hide"
+  [lxpolkit]="lxpolkit"
 )
 
 # Detect if applications are already running. If not, start them.
