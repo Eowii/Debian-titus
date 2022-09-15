@@ -34,6 +34,12 @@ echo -e "Name:$w_name\nID:$w_id\nInstance:$w_instance\nClass:$w_class\n---------
 #  printf "desktop=^5"
 #fi
 
+#if [[ "$w_name" == "FFXIVLauncher" ]]; then   
+# 	echo "desktop=^2"
+#fi
+
+
+
 if [[ "$w_name" == "Friends List" ]] && [[ "$w_instance" == "Steam" ]]; then   
  	echo "desktop=^11"
 	#echo "split_dir=east"
@@ -48,7 +54,7 @@ if [[ "$w_name" == "TeamSpeak 3" ]]; then
 	echo "rectangle=400x1080+1672+0"
 fi
 
-if [[ "$w_name" == "Discord" ]]; then   
+if [[ "$w_class" == "discord" ]]; then   
  	echo "desktop=^11"
 	echo "split_dir=east"
 	echo "rectangle=1250x1080+0+0"
@@ -159,6 +165,24 @@ if [[ "$w_name" == "Trackmania" ]] && [[ "$w_instance" == "trackmania.exe" ]]; t
  	echo "desktop=^2"
 	echo "state=fullscreen"
 fi 
+
+if [[ "$w_class" == "dota2" ]]; then   
+ 	echo "desktop=^2"
+fi
+
+if [[ "$w_name" == "World of Warcraft" ]]; then   
+ 	echo "desktop=^2"
+fi
+
+if [[ "$w_class" == "tsmapplication.exe" ]]; then   
+ 	echo "state=floating"
+	echo "rectangle=980x735+790+352" 
+fi
+
+if [[ "$w_class" == "battle.net.exe" ]]; then   
+        echo "desktop=^9"
+fi
+
 
 #if [[ "$w_name" == "Awakened PoE Trade" ]]; then   
 # 	echo "state=floating"
