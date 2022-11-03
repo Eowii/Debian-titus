@@ -38,7 +38,10 @@ echo -e "Name:$w_name\nID:$w_id\nInstance:$w_instance\nClass:$w_class\n---------
 # 	echo "desktop=^2"
 #fi
 
-
+if [[ "$w_class" == "XIVLauncher.Core" ]]; then   
+       echo "desktop=^2"
+       echo "state=floating"
+fi
 
 if [[ "$w_name" == "Friends List" ]] && [[ "$w_instance" == "Steam" ]]; then   
  	echo "desktop=^11"
