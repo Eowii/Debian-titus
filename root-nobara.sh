@@ -9,8 +9,8 @@ echo "max_parallel_downloads=10" >> /etc/dnf/dnf.conf
 #dnf swap @"KDE Plasma Workspaces" @"Minimal Install"
 
 # Update packages list
-dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm -y
-dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm -y
+#dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm -y
+#dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm -y
 #dnf copr enable gloriouseggroll/nobara -y
 #dnf copr enable gloriouseggroll/mesa-aco -y
 #dnf copr enable gloriouseggroll/glibc -y
@@ -22,8 +22,8 @@ dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-rel
 #dnf copr enable sentry/xone -y
 
 #VSCodium
-rpmkeys --import https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg
-printf "[gitlab.com_paulcarroty_vscodium_repo]\nname=download.vscodium.com\nbaseurl=https://download.vscodium.com/rpms/\nenabled=1\ngpgcheck=1\nrepo_gpgcheck=1\ngpgkey=https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg\nmetadata_expire=1h" | sudo tee -a /etc/yum.repos.d/vscodium.repo
+#rpmkeys --import https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg
+#printf "[gitlab.com_paulcarroty_vscodium_repo]\nname=download.vscodium.com\nbaseurl=https://download.vscodium.com/rpms/\nenabled=1\ngpgcheck=1\nrepo_gpgcheck=1\ngpgkey=https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg\nmetadata_expire=1h" | sudo tee -a /etc/yum.repos.d/vscodium.repo
 
 
 
@@ -51,8 +51,8 @@ wget https://github.com/TheAssassin/AppImageLauncher/releases/download/v2.2.0/ap
 dnf install appimagelauncher-2.2.0-travis995.0f91801.x86_64.rpm -y
 
 #GitHub-Desktop
-wget https://github.com/shiftkey/desktop/releases/download/release-3.0.0-linux2/GitHubDesktop-linux-3.0.0-linux2.rpm
-dnf install GitHubDesktop-linux-3.0.0-linux2.rpm -y
+#wget https://github.com/shiftkey/desktop/releases/download/release-3.0.0-linux2/GitHubDesktop-linux-3.0.0-linux2.rpm
+#dnf install GitHubDesktop-linux-3.0.0-linux2.rpm -y
 
 #VSCodium
 rpmkeys --import https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg
@@ -73,9 +73,9 @@ cd /usr/share/themes/
 git clone https://github.com/EliverLara/Nordic.git
 
 # Fira Code Nerd Font variant needed
-wget https://github.com/ryanoasis/nerd-fonts/releases/download/v1.1.0/FiraCode.zip
+wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/FiraCode.zip
 unzip FiraCode.zip -d /usr/share/fonts
-wget https://github.com/ryanoasis/nerd-fonts/releases/download/v1.1.0/Meslo.zip
+wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/Meslo.zip
 unzip Meslo.zip -d /usr/share/fonts
 fc-cache -vf
 
@@ -126,14 +126,14 @@ sudo sed -i 's/#Session=/Session=bspwm/' /etc/sddm.conf
         Option \"AccelSpeed\" \"-1\"
 EndSection" > /etc/X11/xorg.conf.d/50-mouse-acceleration.conf
 
-cd /home/$username/
-git clone https://github.com/Raymo111/i3lock-color.git
-cd i3lock-color
-./install-i3lock-color.sh
+#cd /home/$username/
+#git clone https://github.com/Raymo111/i3lock-color.git
+#cd i3lock-color
+#./install-i3lock-color.sh
 
-cd /home/$username/
-git clone https://github.com/betterlockscreen/betterlockscreen
-cd betterlockscreen
+#cd /home/$username/
+#git clone https://github.com/betterlockscreen/betterlockscreen
+#cd betterlockscreen
 #su - $username -c "./install user"
 
 
@@ -142,16 +142,16 @@ git clone https://github.com/vinceliuice/Vimix-cursors
 cd Vimix-cursors
 ./install.sh
 
-curl https://sh.rustup.rs -sSf | sh -s -- --default-toolchain nightly -y
-source $HOME/.cargo/env
+#curl https://sh.rustup.rs -sSf | sh -s -- --default-toolchain nightly -y
+#source $HOME/.cargo/env
 
 
-cd /home/$username/
-git clone https://github.com/elkowar/eww
-cd eww
-cargo build --release
-cd target/release
-mv eww /usr/bin/eww
+#cd /home/$username/
+#git clone https://github.com/elkowar/eww
+#cd eww
+#cargo build --release
+#cd target/release
+#mv eww /usr/bin/eww
 
 cd $builddir
 cp user.sh /home/$username/
