@@ -60,8 +60,8 @@ dnf install appimagelauncher-2.2.0-travis995.0f91801.x86_64.rpm -y
 
 #BitWarden
 mkdir -p /home/$username/AppImg
-cd /home/$username/AppImg
-wget https://github.com/bitwarden/desktop/releases/download/v2022.5.1/Bitwarden-2022.5.1-x86_64.AppImage
+#cd /home/$username/AppImg
+#wget https://github.com/bitwarden/desktop/releases/download/v2022.5.1/Bitwarden-2022.5.1-x86_64.AppImage
 
 
 # mscorefonts-ttf
