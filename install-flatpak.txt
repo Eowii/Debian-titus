@@ -1,3 +1,4 @@
-parsec
-discord
-net.davidotek.pupgui2
+io.github.shiftey.Desktop
+com.spotify.Client
+com.parsecgaming.parsec
+com.vscodium.codium
