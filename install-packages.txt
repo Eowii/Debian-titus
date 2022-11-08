@@ -54,7 +54,6 @@ python-cairosvg
 winetricks
 protontricks
 gamemode
-codium
 pango-devel
 atk-devel
 gdk-pixbuf2-devel
