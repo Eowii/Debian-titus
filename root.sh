@@ -42,6 +42,7 @@ dnf install $(cat install-packages.txt) -y
 #dnf install $(cat nobara-installed.txt) -y
 
 #Installing flatpaks
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpak install $(cat install-flatpak.txt) -y
 
 #Appimage Launcher

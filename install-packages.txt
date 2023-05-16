@@ -1,5 +1,7 @@
 @base-x
 @firefox
+bc
+locate
 htop
 rofi
 yad
@@ -60,4 +62,6 @@ gdk-pixbuf2-devel
 gtk3-devel
 playerctl
 steam
+flatpak
 google-noto-sans-runic-fonts
+gnome-keyring
