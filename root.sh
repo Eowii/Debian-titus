@@ -159,6 +159,8 @@ echo "bash ~/user.sh" >> /home/$username/.config/bspwm/bspwmrc
 
 chown -R $username:$username /home/$username
 
+sed -i 's/SELINUX=enforcing/SELINUX=permissive/' /etc/selinux/config
+
 # Boots into graphical UI
 sudo systemctl set-default graphical.target
 
