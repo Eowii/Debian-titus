@@ -4,7 +4,7 @@
 
 # Bitwarden
 super+ v
-	./Applications/Bitwarden*
+	flatpak run com.bitwarden.desktop
 
 # terminal emulator
 super + x

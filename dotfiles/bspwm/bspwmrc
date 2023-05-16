@@ -96,3 +96,4 @@ bash ~/.config/bspwm/autorun.sh
 
 
 bspc desktop -f ^1
+
