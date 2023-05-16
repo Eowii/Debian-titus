@@ -9,7 +9,7 @@ echo "max_parallel_downloads=10" >> /etc/dnf/dnf.conf
 # Update packages list
 dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm -y
 dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm -y
-dnf copr enable gloriouseggroll/nobara -y
+#dnf copr enable gloriouseggroll/nobara -y
 #dnf copr enable gloriouseggroll/mesa-aco -y
 #dnf copr enable gloriouseggroll/glibc -y
 #dnf copr enable gloriouseggroll/game-utils -y
@@ -20,8 +20,8 @@ dnf copr enable gloriouseggroll/nobara -y
 #dnf copr enable sentry/xone -y
 
 #VSCodium
-rpmkeys --import https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg
-printf "[gitlab.com_paulcarroty_vscodium_repo]\nname=download.vscodium.com\nbaseurl=https://download.vscodium.com/rpms/\nenabled=1\ngpgcheck=1\nrepo_gpgcheck=1\ngpgkey=https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg\nmetadata_expire=1h" | sudo tee -a /etc/yum.repos.d/vscodium.repo
+#rpmkeys --import https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg
+#printf "[gitlab.com_paulcarroty_vscodium_repo]\nname=download.vscodium.com\nbaseurl=https://download.vscodium.com/rpms/\nenabled=1\ngpgcheck=1\nrepo_gpgcheck=1\ngpgkey=https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg\nmetadata_expire=1h" | sudo tee -a /etc/yum.repos.d/vscodium.repo
 
 
 
@@ -39,7 +39,7 @@ dnf upgrade --refresh -y
 #dnf install winetricks protontricks gamemode -y
 
 dnf install $(cat install-packages.txt) -y
-dnf install $(cat nobara-installed.txt) -y
+#dnf install $(cat nobara-installed.txt) -y
 
 #Installing flatpaks
 flatpak install $(cat install-flatpak.txt) -y
@@ -49,17 +49,17 @@ wget https://github.com/TheAssassin/AppImageLauncher/releases/download/v2.2.0/ap
 dnf install appimagelauncher-2.2.0-travis995.0f91801.x86_64.rpm -y
 
 #GitHub-Desktop
-wget https://github.com/shiftkey/desktop/releases/download/release-3.0.0-linux2/GitHubDesktop-linux-3.0.0-linux2.rpm
-dnf install GitHubDesktop-linux-3.0.0-linux2.rpm -y
+#wget https://github.com/shiftkey/desktop/releases/download/release-3.0.0-linux2/GitHubDesktop-linux-3.0.0-linux2.rpm
+#dnf install GitHubDesktop-linux-3.0.0-linux2.rpm -y
 
 #VSCodium
-rpmkeys --import https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg
-printf "[gitlab.com_paulcarroty_vscodium_repo]\nname=download.vscodium.com\nbaseurl=https://download.vscodium.com/rpms/\nenabled=1\ngpgcheck=1\nrepo_gpgcheck=1\ngpgkey=https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg\nmetadata_expire=1h" | sudo tee -a /etc/yum.repos.d/vscodium.repo
+#rpmkeys --import https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg
+#printf "[gitlab.com_paulcarroty_vscodium_repo]\nname=download.vscodium.com\nbaseurl=https://download.vscodium.com/rpms/\nenabled=1\ngpgcheck=1\nrepo_gpgcheck=1\ngpgkey=https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg\nmetadata_expire=1h" | sudo tee -a /etc/yum.repos.d/vscodium.repo
 
 #BitWarden
-mkdir -p /home/$username/AppImg
-cd /home/$username/AppImg
-wget https://github.com/bitwarden/desktop/releases/download/v2022.5.1/Bitwarden-2022.5.1-x86_64.AppImage
+#mkdir -p /home/$username/AppImg
+#cd /home/$username/AppImg
+#wget https://github.com/bitwarden/desktop/releases/download/v2022.5.1/Bitwarden-2022.5.1-x86_64.AppImage
 
 
 # mscorefonts-ttf
