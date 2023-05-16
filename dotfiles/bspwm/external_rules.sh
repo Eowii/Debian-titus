@@ -155,6 +155,11 @@ if [[ "$w_instance" == "bitwarden" ]]; then
 	echo "rectangle=980x735+790+352" 
 fi
 
+if [[ "$w_instance" == "github desktop" ]]; then   
+ 	echo "state=floating"
+	echo "rectangle=980x735+790+352" 
+fi
+
 if [[ "$w_class" == "plexmediaplayer" ]]; then   
  	echo "desktop=^8"
 fi
