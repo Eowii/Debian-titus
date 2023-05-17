@@ -65,3 +65,6 @@ steam
 flatpak
 google-noto-sans-runic-fonts
 gnome-keyring
+helvum
+lutris
+tldr

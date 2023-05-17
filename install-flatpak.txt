@@ -2,3 +2,5 @@ com.spotify.Client
 com.parsecgaming.parsec
 com.vscodium.codium
 com.bitwarden.desktop
+com.discordapp.Discord
+net.davidotek.pupgui2
