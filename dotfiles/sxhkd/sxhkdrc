@@ -165,5 +165,5 @@ XF86AudioPrev
 	playerctl -a -i firefox,chrome,brave previous
 
 #Lock the computer
-super + shift + l
-	betterlockscreen -l blur
+super + l
+	sh -c "/home/andreas/.local/bin/betterlockscreen -l blur"

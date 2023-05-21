@@ -46,7 +46,7 @@ fi
 if [[ "$w_name" == "Friends List" ]] && [[ "$w_instance" == "Steam" ]]; then   
  	echo "desktop=^11"
 	#echo "split_dir=east"
-	echo "rectangle=500x1080+2160+0"
+	echo "rectangle=550x1080+2010+0"
 	echo "state=floating"
 fi
 
@@ -60,7 +60,7 @@ fi
 if [[ "$w_class" == "discord" ]]; then   
  	echo "desktop=^11"
 	echo "split_dir=east"
-	echo "rectangle=1250x1080+0+0"
+	echo "rectangle=1370x1080+0+0"
 	echo "state=floating"
 fi
 
@@ -191,6 +191,9 @@ if [[ "$w_class" == "battle.net.exe" ]]; then
         echo "desktop=^9"
 fi
 
+if [[ "$w_class" == "Spotify" ]]; then   
+        echo "desktop=^5"
+fi
 
 #if [[ "$w_name" == "Awakened PoE Trade" ]]; then   
 # 	echo "state=floating"

@@ -7,7 +7,7 @@ declare -A apps
 apps=(
   [steam]="steam"
   [discord]="flatpak run com.discordapp.Discord"
-  [spotify]="spotify"
+  [spotify]="flatpak run com.spotify.Client"
   [eww daemon]="eww daemon"
   [noisetorch]="noisetorch -i"
   [flameshot]="flameshot"

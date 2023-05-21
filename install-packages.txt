@@ -68,3 +68,5 @@ gnome-keyring
 helvum
 lutris
 tldr
+bash-completion
+file-roller
