@@ -166,4 +166,4 @@ XF86AudioPrev
 
 #Lock the computer
 super + l
-	sh -c "/home/andreas/.local/bin/betterlockscreen -l blur"
+	sh -c "/home/andreas/.local/bin/betterlockscreen -l blur --off 30"

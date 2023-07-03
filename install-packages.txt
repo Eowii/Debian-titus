@@ -70,3 +70,5 @@ lutris
 tldr
 bash-completion
 file-roller
+wine
+mangohud

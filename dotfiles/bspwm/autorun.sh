@@ -5,14 +5,15 @@
 declare -A apps
 
 apps=(
-  [steam]="steam"
-  [discord]="flatpak run com.discordapp.Discord"
-  [spotify]="flatpak run com.spotify.Client"
+#  [steam]="steam"
+#  [discord]="flatpak run com.discordapp.Discord"
+#  [spotify]="flatpak run com.spotify.Client"
   [eww daemon]="eww daemon"
   [noisetorch]="noisetorch -i"
   [flameshot]="flameshot"
-  [solaar]="solaar -w hide"
+#  [solaar]="solaar -w hide"
   [lxpolkit]="lxpolkit"
+  [syncthing]="syncthing -no-browser"
 )
 
 # Detect if applications are already running. If not, start them.

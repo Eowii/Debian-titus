@@ -10,43 +10,16 @@ w_name=`echo "$w_name1" | cut -d'"' -f 2`
 
 echo -e "Name:$w_name\nID:$w_id\nInstance:$w_instance\nClass:$w_class\n----------------------------" >> ~/test.txt
 
-#*"("*")"
-
-# ----------------------------------------
-# Windows State
-# ----------------------------------------
-
-# Thunderbird About Window
-#if [[ "$w_name" =~ "About" ]]; then
-#  printf "state=floating"
-#fi
-
-# Android Emulator
-#if [[ "$w_name" =~ "Android Emulator" ]]; then
-#  printf "state=floating"
-#fi
-
-# ----------------------------------------
-# Move to Desktop
-# ----------------------------------------
-
-#if [[ "$w_class" =~ "Gimp" ]]; then
-#  printf "desktop=^5"
-#fi
-
-#if [[ "$w_name" == "FFXIVLauncher" ]]; then   
-# 	echo "desktop=^2"
-#fi
 
 if [[ "$w_class" == "XIVLauncher.Core" ]]; then   
-       echo "desktop=^2"
-       echo "state=floating"
+	echo "desktop=^2"
+	echo "state=floating"
 fi
 
-if [[ "$w_name" == "Friends List" ]] && [[ "$w_instance" == "Steam" ]]; then   
+if [[ "$w_name" == "Friends List" ]] && [[ "$w_instance" == "steamwebhelper" ]]; then   
  	echo "desktop=^11"
-	#echo "split_dir=east"
-	echo "rectangle=550x1080+2010+0"
+	echo "split_dir=east"
+	echo "rectangle=640x1440+1920+0"
 	echo "state=floating"
 fi
 
@@ -60,67 +33,51 @@ fi
 if [[ "$w_class" == "discord" ]]; then   
  	echo "desktop=^11"
 	echo "split_dir=east"
-	echo "rectangle=1370x1080+0+0"
+	echo "rectangle=1280x1440+640+0"
 	echo "state=floating"
 fi
 
-if [[ "$w_name" == *"("*")" ]] && [[ "$w_instance" == "Steam" ]]; then   
- 	echo "desktop=^3"
-	#echo "split_dir=east"
-	#echo "rectangle=1520x1080+0+0"
-	#echo "state=floating"
+if [[ "$w_name" == *"("*")" ]] && [[ "$w_instance" == "steamwebhelper" ]]; then   
+ 	echo "desktop=^11"
+	echo "split_dir=east"
+	echo "rectangle=640x1440+0+0"
+	echo "state=floating"
 
 fi
 
-if [[ "$w_name" == "Untitled" ]] && [[ "$w_instance" == "Steam" ]]; then   
- 	echo "desktop=^3"
-	#echo "split_dir=east"
-	#echo "rectangle=1520x1080+0+0"
-	#echo "state=floating"
+if [[ "$w_name" == "+"* ]] && [[ "$w_instance" == "steamwebhelper" ]]; then   
+	echo "desktop=^11"
+	echo "split_dir=east"
+	echo "rectangle=640x1440+0+0"
+	echo "state=floating"
 
 fi
 
-if [[ "$w_name" == *"("*")"" + "* ]] && [[ "$w_instance" == "Steam" ]]; then   
- 	echo "desktop=^3"
-	#echo "split_dir=east"
-	#echo "rectangle=1520x1080+0+0"
-	#echo "state=floating"
+if [[ "$w_name" == "WM_NAME(UTF-8) = " ]] && [[ "$w_instance" == "steamwebhelper" ]]; then   
+	echo "desktop=^11"
+	echo "split_dir=east"
+	echo "rectangle=640x1440+0+0"
+	echo "state=floating"
 
 fi
 
-
-if [[ "$w_name" == *" + "* ]] && [[ "$w_instance" == "Steam" ]]; then   
-        echo "desktop=^3"
-        #echo "split_dir=east"
-        #echo "rectangle=1520x1080+0+0"
-        #echo "state=floating"
-
-fi
-
-
-
-
-if [[ "$w_name" == "+ "* ]] && [[ "$w_instance" == "Steam" ]]; then   
- 	echo "desktop=^3"
-	#echo "split_dir=east"
-	#echo "rectangle=1520x1080+0+0"
-	#echo "state=floating"
-fi
-
-if [[ "$w_name" == "WM_NAME(UTF8_STRING) = " ]] && [[ "$w_instance" == "Steam" ]]; then   
- 	echo "desktop=^3"
-	#echo "split_dir=east"
-	#echo "rectangle=1520x1080+0+0"
-	#echo "state=floating"
-
+if [[ "$w_name" == *"("*")"" + "* ]] && [[ "$w_instance" == "steamwebhelper" ]]; then   
+ 	echo "desktop=^11"
+	echo "split_dir=east"
+	echo "rectangle=640x1440+0+0"
+	echo "state=floating"
 fi
 
 if [[ "$w_class" == "ProtonUp-Qt" ]]; then   
        echo "state=floating"
 fi
 
-if [[ "$w_name" == "Steam" ]] && [[ "$w_instance" == "Steam" ]]; then   
- 	echo "desktop=^9"
+if [[ "$w_name" == "Steam" ]] && [[ "$w_instance" == "steamwebhelper" ]]; then   
+	echo "desktop=^9"
+fi 
+
+if [[ "$w_name" == "Steam Games List" ]] && [[ "$w_instance" == "steamwebhelper" ]]; then   
+	echo "desktop=^9"
 fi 
 
 if [[ "$w_name" == "WM_NAME:  not found." ]]; then   
@@ -188,11 +145,16 @@ if [[ "$w_class" == "tsmapplication.exe" ]]; then
 fi
 
 if [[ "$w_class" == "battle.net.exe" ]]; then   
-        echo "desktop=^9"
+	echo "desktop=^9"
 fi
 
+
 if [[ "$w_class" == "Spotify" ]]; then   
-        echo "desktop=^5"
+	echo "desktop=^5"
+fi
+
+if [[ "$w_name" == "Diablo IV" ]]; then   
+	echo "desktop=^2"
 fi
 
 #if [[ "$w_name" == "Awakened PoE Trade" ]]; then   

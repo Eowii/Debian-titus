@@ -1,7 +1,6 @@
-
 #
 # /etc/fstab
-# Created by anaconda on Sun Apr 17 11:12:22 2022
+# Created by anaconda on Wed May 17 11:34:41 2023
 #
 # Accessible filesystems, by reference, are maintained under '/dev/disk/'.
 # See man pages fstab(5), findfs(8), mount(8) and/or blkid(8) for more info.
@@ -9,11 +8,17 @@
 # After editing this file, run 'systemctl daemon-reload' to update systemd
 # units generated from this file.
 #
-UUID=bb5909a0-9dab-4862-96ef-41150da8fb31 /                       btrfs   subvol=root,compress=zstd:1 0 0
-UUID=9944eae1-5a0a-462b-bef7-7e32fe726304 /boot                   xfs     defaults        0 0
-UUID=E9D1-DF13          /boot/efi               vfat    umask=0077,shortname=winnt 0 2
+UUID=73513261-bc00-483c-ad41-eda9cd6e4b5d /                       btrfs   subvol=root,compress=zstd:1 0 0
+UUID=53e1378f-fda0-4113-9b2b-de483d0e0d0f /boot                   xfs     defaults        0 0
+UUID=BCD6-0925          /boot/efi               vfat    umask=0077,shortname=winnt 0 2
+UUID=dee44306-3f3f-4910-80e8-68da286a7ae2 /home                   ext4    defaults        1 2
 
-//192.168.1.137/appdata /mnt/unraid/appdata  cifs  guest,uid=1000,iocharset=utf8  0  0
-//192.168.1.137/photos /mnt/unraid/Photos  cifs  guest,uid=1000,iocharset=utf8  0  0
-//192.168.1.137/PDF /mnt/unraid/PDF  cifs  guest,uid=1000,iocharset=utf8  0  0
-//192.168.1.137/PlexMedia /mnt/unraid/PlexMedia  cifs  guest,uid=1000,iocharset=utf8  0  0
+#Windows
+UUID=1A64F11F64F0FE77	/mnt/windows/win_c/	ntfs
+UUID=982AC3512AC32B58	/mnt/windows/win_d/	ntfs
+
+#Network-Drives
+//192.168.1.137/appdata /mnt/unraid/appdata cifs guest,uid=1000 0 0
+//192.168.1.137/PlexMedia /mnt/unraid/plexmedia cifs guest,uid=1000 0 0
+//192.168.1.137/PDF /mnt/unraid/pdf cifs guest,uid=1000 0 0
+//192.168.1.137/photos /mnt/unraid/photos cifs guest,uid=1000 0 0
